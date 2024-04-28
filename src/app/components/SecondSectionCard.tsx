@@ -13,7 +13,7 @@ function SecondSectionCard() {
       <div>
         <div className="flex w-full justify-center">
           <div className="grid grid-cols-4 w-full rounded-b-full py-8 gap-20  basis-[90%]">
-            <div className="card bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card rounded-3xl bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
@@ -21,7 +21,7 @@ function SecondSectionCard() {
                   className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  mt- bg-white">
+              <div className="  mt- rounded-xl px-4 bg-white">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   30 +
@@ -46,7 +46,7 @@ function SecondSectionCard() {
                   className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  mt- bg-white">
+              <div className="  rounded-xl px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   26 K+
@@ -72,7 +72,7 @@ function SecondSectionCard() {
                   className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  mt- bg-white">
+              <div className="  rounded-xl px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   260 +
@@ -95,7 +95,7 @@ function SecondSectionCard() {
                   className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  mt- bg-white">
+              <div className="  rounded-xl px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   1994
