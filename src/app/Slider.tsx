@@ -16,24 +16,24 @@ const CURSOR_SIZE = 80;
 const articles = [
   {
     title: "HEAD QUARTERS",
-    url: "/one.jpg",
+    url: "/mech4.jpg",
   },
   {
     title: "Building a c",
-    url: "/two.jpg",
+    url: "/mech5.jpg",
   },
   {
     title: "BRANCH",
-    url: "/three.jpg",
+    url: "/mec1.jpg",
   },
 
   {
     title: "BRANCH",
-    url: "mech2.jpg",
+    url: "/mech2.jpg",
   },
   {
     title: "BRANCH",
-    url: "mech3.jpg",
+    url: "/mech3.jpg",
   },
 ];
 
@@ -194,10 +194,10 @@ export default function SuggestedCarousel() {
 
   return (
     <section className="font-Anta">
-      <div className="text-center">
-        <h1 className="mt-2 text-6xl font-bold py-16 uppercase">About Us</h1>
-        <p className="text-sm text-gray-400">Know About Our branch</p>
-      </div>
+      {/* <div className="text-center">
+        <h1 className="text-sm text-gray-400 pt-8">OUR SOLUTIONS</h1>
+        <p className=" mt-2 text-6xl font-bold pb-16 uppercase">OUR SERVICES</p>
+      </div> */}
       <div className="group container mx-auto   py-8 ">
         <motion.div
           className={cn(
@@ -319,7 +319,7 @@ export default function SuggestedCarousel() {
                       onMouseEnter={() => setHoverType("click")}
                       onMouseLeave={() => setHoverType(null)}
                     >
-                      {article.title}sdsdsd
+                      {article.title}
                     </Link>
                   </div>
                 </motion.li>
@@ -339,8 +339,8 @@ export default function SuggestedCarousel() {
             onMouseMove={(e) => navButtonHover(e)}
             onMouseLeave={() => setHoverType(null)}
           >
-            {/* <span className="sr-only">Previous Guide</span>
-            <MoveLeft className="h-10 w-10 stroke-[1.5] transition-colors group-enabled:group-hover:text-gray-900 group-disabled:opacity-50" /> */}
+            <span className="sr-only">Previous Guide</span>
+            <MoveLeft className="h-10 w-10 stroke-[2.9] transition-colors group-enabled:group-hover:text-gray-900 group-disabled:opacity-50" />
           </button>
           <button
             type="button"
@@ -355,8 +355,8 @@ export default function SuggestedCarousel() {
             onMouseMove={(e) => navButtonHover(e)}
             onMouseLeave={() => setHoverType(null)}
           >
-            {/* <span className="sr-only">Next Guide</span>
-            <MoveRight className="h-10 w-10 stroke-[1.5] transition-colors group-enabled:group-hover:text-gray-900 group-disabled:opacity-50" /> */}
+            <span className="sr-only">Next Guide</span>
+            <MoveRight className="h-10 w-10 stroke-[2.9] transition-colors group-enabled:group-hover:text-gray-900 group-disabled:opacity-50" />
           </button>
         </div>
       </div>

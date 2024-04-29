@@ -35,46 +35,46 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "The Dawn of Innovation",
+    title: "BTA DRILLING, GUNDRILLING & HONING",
     description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: "/mec1.jpg",
+    header: "/service/brp.jpg",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Digital Revolution",
+    title: "CNC TURNING",
     description: "Dive into the transformative power of technology.",
     header: "/mech2.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Art of Design",
+    title: "HEAT TREATMENT & CASE HARDENING",
     description: "Discover the beauty of thoughtful and functional design.",
     header: "/mech3.jpg",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Power of Communication",
+    title: "CYLINDRICAL & SURFACE GRINDING",
     description:
       "Understand the impact of effective communication in our lives.",
-    header: "/four.jpg",
+    header: "/mec1.jpg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Pursuit of Knowledge",
+    title: "Repair and  overhaul",
     description: "Join the quest for understanding and enlightenment.",
-    header: "",
+    header: "/mech4.jpg",
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Joy of Creation",
+    title: "Oem",
     description: "Experience the thrill of bringing ideas to life.",
-    header: "",
+    header: "/mech5.jpg",
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Spirit of Adventure",
+    title: "Automotive",
     description: "Embark on exciting journeys and thrilling discoveries.",
-    header: "",
+    header: "/auto.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
   },
 ];

@@ -7,8 +7,7 @@ function SecondSectionCard() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
       <div className="mr-20 pb-8">
-        <div className="text-sm pb-3 text-end ">WHAT WE BELIEVE</div>
-        <TextGenerateEffectDemoTwo />
+        <div className="text-2xl pb-3 text-end ">OUR INDUSTRIAL VERTICALS</div>
       </div>
 
       <div>
@@ -17,7 +16,7 @@ function SecondSectionCard() {
             <div className="card rounded-3xl bg-white card-compact hover:scale-105 transition-all duration-500 w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
-                  src="/one.jpg"
+                  src="/petro.jpg"
                   alt="Shoes"
                   className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
@@ -25,13 +24,9 @@ function SecondSectionCard() {
               <div className="  mt- rounded-xl px-4 bg-white">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
-                  30 +
+                  Petrochemical Industry
                 </div>{" "}
-                <div className="text-black   ">
-                  {" "}
-                  YEARS OF INDUSTRY EXPERIENCE
-                </div>
-                <div className="flex gap-3 text-[#2893ba]">
+                <div className="flex gap-3 pb-2 text-[#2893ba]">
                   <div className="flex justify-center items-center">
                     <FaLongArrowAltRight />
                   </div>{" "}
@@ -42,7 +37,7 @@ function SecondSectionCard() {
             <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
-                  src="/one.jpg"
+                  src="/construction.jpg"
                   alt="Shoes"
                   className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
@@ -50,13 +45,9 @@ function SecondSectionCard() {
               <div className="  rounded-xl px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
-                  26 K+
+                  Construction Industry
                 </div>{" "}
-                <div className="text-black   ">
-                  {" "}
-                  CNC MACHINE HOURS PER MONTH
-                </div>
-                <div className="flex gap-3 text-[#2893ba]">
+                <div className="flex gap-3  pb-2 text-[#2893ba]">
                   <div className="flex justify-center items-center">
                     <FaLongArrowAltRight />
                   </div>{" "}
@@ -68,7 +59,7 @@ function SecondSectionCard() {
             <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
-                  src="/one.jpg"
+                  src="/equi.jpg"
                   alt="Shoes"
                   className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
@@ -76,10 +67,9 @@ function SecondSectionCard() {
               <div className="  rounded-xl px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
-                  260 +
+                  Original Equipment Manufacturers
                 </div>{" "}
-                <div className="text-black   "> SKILLED & SEASONED STAFF</div>
-                <div className="flex gap-3 text-[#2893ba]">
+                <div className="flex gap-3  pb-2 text-[#2893ba]">
                   <div className="flex justify-center items-center">
                     <FaLongArrowAltRight />
                   </div>{" "}
@@ -91,7 +81,7 @@ function SecondSectionCard() {
             <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
-                  src="/one.jpg"
+                  src="/eng.jpg"
                   alt="Shoes"
                   className="rounded-b-2xl w-[300px] hover:scale-110 transition-all duration-500 h-[500px] brightness-75 object-cover"
                 />
@@ -99,13 +89,9 @@ function SecondSectionCard() {
               <div className="  rounded-xl px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
-                  1994
+                  Precision Engineering Industry
                 </div>{" "}
-                <div className="text-black   ">
-                  {" "}
-                  A HISTORY OF EXPERTISE & WEALTH OF KNOWLEDGEs
-                </div>
-                <div className="flex gap-3 text-[#2893ba]">
+                <div className="flex gap-3  pb-2 text-[#2893ba]">
                   <div className="flex justify-center items-center">
                     <FaLongArrowAltRight />
                   </div>{" "}

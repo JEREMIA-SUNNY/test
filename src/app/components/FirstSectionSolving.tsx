@@ -1,17 +1,20 @@
-import React from "react";
+import { motion } from "framer-motion";
 import { TextGenerateEffectDemo } from "../OxygenEffect";
-import { motion, useMotionValue } from "framer-motion";
+import SuggestedCarousel from "../Slider";
 
 function FirstSectionSolving() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
       <div className="ml-24 pb-8">
-        <div className="text-sm pb-3">DISCOVER ARAMCO</div>
+        <div className="text-sm ">FACTORY & MACHINERY</div>
+        <img src="/servicetool.png" className="w-[30px] h-[30px]" alt="" />
+        <div className="pb-3 text-3xl">OUR FACILITIES</div>
         <TextGenerateEffectDemo />
       </div>
 
       <div>
-        <div className="flex  w-full justify-center">
+        <SuggestedCarousel />
+        {/* <div className="flex  w-full justify-center">
           <div className="flex md:flex-row flex-col justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
             <motion.div
               whileInView={{ x: -0 }}
@@ -189,7 +192,7 @@ function FirstSectionSolving() {
               </div>
             </motion.div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

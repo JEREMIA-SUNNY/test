@@ -15,6 +15,7 @@ const config: Config = {
       },
       fontFamily: {
         Anta: ["Anta", "sans-serif"],
+        Roboto: ["Roboto","sans-serif"],
       },
     },
   },

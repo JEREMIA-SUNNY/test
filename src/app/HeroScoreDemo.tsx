@@ -11,7 +11,7 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <div className="text-2xl text-left md:text-[3rem] font-bold leading-none">
-              OUR INDUSTRIAL VERTICALS <br />
+              What we Offer <br />
               <div className="flex flex-col gap-8 pt-8">
                 <div className="text-xl text-left flex gap-4  text-black">
                   <div>
@@ -44,7 +44,6 @@ export function HeroScrollDemo() {
       >
         <video
           src={`/walk.mp4`}
-          
           className="mx-auto rounded-2xl object-cover h-full object-left-top"
           draggable={false}
           autoPlay // Add the autoPlay attribute to make the video autoplay

@@ -18,7 +18,6 @@ export function TypewriterEffectSmoothDemo() {
       text: "Iron man",
       className: "text-blue-500 dark:text-blue-500",
     },
-    
   ];
   return (
     <div className="flex flex-col items-center  h-[rem]  ">
@@ -26,13 +25,24 @@ export function TypewriterEffectSmoothDemo() {
       Environmental protection
       </p> */}
       <TypewriterEffectSmooth words={words} />
-      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
-        <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
-          Join now
-        </button>
-        <button className="w-40 h-10 rounded-xl bg-white text-black border border-black  text-sm">
-          Signup
-        </button>
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0  gap-8 space-x-0 md:space-x-4">
+        <div className="flex items-center">
+          <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-black transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">
+              Join now
+            </span>
+          </button>
+        </div>
+
+        <div className="flex items-center">
+          <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+            <div className="absolute inset-0 w-3 bg-black transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative text-black group-hover:text-white">
+              Sign up
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   );

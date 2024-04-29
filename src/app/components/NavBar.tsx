@@ -37,7 +37,7 @@ function NavBar() {
             </div>
           </div>
 
-          <div className="md:flex  hidden">
+          {/* <div className="md:flex  hidden">
             <div className="text-white   px-5 shadow-xl  gap-1 hover:cursor-pointer hover:shadow-2xl flex justify-center  items-center py-4 rounded-lg rounded-r-lg">
               <button className="font-medium ">Contact Us</button>{" "}
               <div className="flex  rounded-full -2 justify-center items-center">
@@ -57,7 +57,7 @@ function NavBar() {
                 </svg>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </nav>
     </div>
