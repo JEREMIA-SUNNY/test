@@ -6,7 +6,7 @@ function SecondSectionCard() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
       <div className="mr-20 pb-8">
-        <div className="text-sm pb-3 text-end pb-3">WHAT WE BELIEVE</div>
+        <div className="text-sm pb-3 text-end ">WHAT WE BELIEVE</div>
         <TextGenerateEffectDemoTwo />
       </div>
 
