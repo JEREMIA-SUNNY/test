@@ -1,5 +1,6 @@
 import React from "react";
 import { TextGenerateEffectDemo } from "../OxygenEffect";
+import { motion } from "framer-motion";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { TextGenerateEffectDemoTwo } from "../OxygenEffect2";
 function SecondSectionCard() {
@@ -12,13 +13,13 @@ function SecondSectionCard() {
 
       <div>
         <div className="flex w-full justify-center">
-          <div className="grid grid-cols-4 w-full rounded-b-full py-8 gap-20  basis-[90%]">
-            <div className="card rounded-3xl bg-white card-compact w-[300px] h-[500px]   ">
+          <div className="grid grid-cols-1 md:grid-cols-4 w-full rounded-b-full py-8 gap-20  basis-[90%]">
+            <div className="card rounded-3xl bg-white card-compact hover:scale-105 transition-all duration-500 w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  mt- rounded-xl px-4 bg-white">
@@ -38,12 +39,12 @@ function SecondSectionCard() {
                 </div>
               </div>
             </div>
-            <div className="card bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  rounded-xl px-4">
@@ -64,12 +65,12 @@ function SecondSectionCard() {
               </div>
             </div>
 
-            <div className="card bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  rounded-xl px-4">
@@ -87,12 +88,12 @@ function SecondSectionCard() {
               </div>
             </div>
 
-            <div className="card bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl w-[300px] hover:scale-110 transition-all duration-500 h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  rounded-xl px-4">

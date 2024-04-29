@@ -21,7 +21,7 @@ export function TypewriterEffectSmoothDemo() {
     
   ];
   return (
-    <div className="flex flex-col items-center  h-[20rem]  ">
+    <div className="flex flex-col items-center  h-[rem]  ">
       {/* <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
       Environmental protection
       </p> */}

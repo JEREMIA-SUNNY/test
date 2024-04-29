@@ -261,7 +261,7 @@ export default function SuggestedCarousel() {
               return (
                 <motion.li
                   layout
-                  key={article.title + index  }
+                  key={article.title + index}
                   ref={assignRef(index)}
                   className={cn(
                     "group relative shrink-0 select-none px-3 transition-opacity duration-300",

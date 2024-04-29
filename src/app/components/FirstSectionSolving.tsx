@@ -11,8 +11,8 @@ function FirstSectionSolving() {
       </div>
 
       <div>
-        <div className="flex w-full justify-center">
-          <div className="flex justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
+        <div className="flex  w-full justify-center">
+          <div className="flex md:flex-row flex-col justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
             <motion.div
               whileInView={{ x: -0 }}
               animate={{ x: -200 }}
@@ -43,12 +43,7 @@ function FirstSectionSolving() {
                 </div>
               </div>
               <div className="absolute bottom-5 right-5 rounded-full w-[70px] border-4  h-[70px]">
-                <motion.div
-                  initial={{ x: -40 }} // Starting position off-screen to the left
-                  animate={{ x: 0 }} // Ending position at 0 (default)
-                  transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                  className="flex h-full items-center justify-center"
-                >
+                <motion.div className="flex h-full items-center justify-center">
                   <motion.img
                     src="/arrorw.png"
                     className="w-[20px] h-[20px]"
@@ -66,6 +61,7 @@ function FirstSectionSolving() {
                 damping: 15,
                 duration: 10,
               }}
+              viewport={{ once: true }}
               className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
             >
               <figure className="relative rounded-b-2xl">
@@ -103,7 +99,15 @@ function FirstSectionSolving() {
             </motion.div>
 
             <motion.div
-              transition={{ type: "spring", stiffness: 200, damping: 15 }}
+              whileInView={{ x: -0 }}
+              animate={{ x: -200 }}
+              transition={{
+                type: "spring",
+                stiffness: 200,
+                damping: 15,
+                duration: 10,
+              }}
+              viewport={{ once: true }}
               className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
             >
               <figure className="relative rounded-b-2xl">
@@ -141,7 +145,14 @@ function FirstSectionSolving() {
             </motion.div>
 
             <motion.div
-              transition={{ type: "spring", stiffness: 200, damping: 15 }}
+              whileInView={{ x: -0 }}
+              animate={{ x: -200 }}
+              transition={{
+                type: "spring",
+                stiffness: 200,
+                damping: 15,
+                duration: 10,
+              }}
               className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
             >
               <figure className="relative rounded-b-2xl">

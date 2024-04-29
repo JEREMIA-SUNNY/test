@@ -12,13 +12,13 @@ function ThirdSectionWhatWeBeilive() {
       </div>
       <div>
         <div className="flex w-full justify-center">
-          <div className="grid grid-cols-3 justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
-            <div className="card  card-compact  h-[500px]   ">
+          <div className="grid grid-cols-1 md:grid-cols-3 justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
+            <div className="card   card-compact  h-[500px]  hover:scale-105 transition-all duration-500  ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-full h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-full h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="">
@@ -45,12 +45,12 @@ function ThirdSectionWhatWeBeilive() {
               </div>
             </div>
 
-            <div className="card  card-compact  h-[500px]   ">
+            <div className="card  card-compact  h-[500px]   hover:scale-105 transition-all duration-500 ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-full h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl  hover:scale-110 transition-all duration-500 w-full h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="">
@@ -69,7 +69,7 @@ function ThirdSectionWhatWeBeilive() {
                   <div className=" rounded-full w-[60px] border-4  h-[60px] flex justify-center items-center">
                     <img
                       src="/arrorw.png"
-                      className="w-[20px] h-[20px]"
+                      className="w-[20px]  h-[20px]"
                       alt=""
                     />
                   </div>
@@ -77,12 +77,12 @@ function ThirdSectionWhatWeBeilive() {
               </div>
             </div>
 
-            <div className="card  card-compact  h-[500px]   ">
+            <div className="card  card-compact  h-[500px]  hover:scale-105 transition-all duration-500  ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/one.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-full h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl w-full hover:scale-110 transition-all duration-500 h-[500px] brightness-75 object-cover"
                 />
               </figure>
               <div className="">
@@ -98,7 +98,7 @@ function ThirdSectionWhatWeBeilive() {
                   </div>
                 </div>
                 <div className="flex items-center">
-                  <div className=" rounded-full w-[60px] border-4  h-[60px] flex justify-center items-center">
+                  <div className=" rounded-full w-[60px] border-4  hover:scale-110 transition-all duration-500 h-[60px] flex justify-center items-center">
                     <img
                       src="/arrorw.png"
                       className="w-[20px] h-[20px]"
