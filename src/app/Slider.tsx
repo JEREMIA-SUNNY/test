@@ -198,10 +198,10 @@ export default function SuggestedCarousel() {
         <h1 className="mt-2 text-6xl font-bold py-16 uppercase">About Us</h1>
         <p className="text-sm text-gray-400">Know About Our branch</p>
       </div>
-      <div className="group container py-8 mx-6">
+      <div className="group container mx-auto   py-8 ">
         <motion.div
           className={cn(
-            "pointer-events-none absolute z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            "pointer-events-none absolute  z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
           )}
           style={{
             width: CURSOR_SIZE,
@@ -231,7 +231,7 @@ export default function SuggestedCarousel() {
             </motion.span>
           </motion.div>
         </motion.div>
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden  ">
           <motion.ul
             ref={containerRef}
             className="flex cursor-none items-start"
