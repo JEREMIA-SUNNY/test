@@ -4,11 +4,9 @@ import SuggestedCarousel from "../Slider";
 
 function FirstSectionSolving() {
   return (
-    <div className="basis-[90%]  pt-16 pb-12">
+    <div className="basis-[90%]  pt-20 pb-12">
       <div className="ml-24 pb-8">
-        <div className="text-sm ">FACTORY & MACHINERY</div>
-        <img src="/servicetool.png" className="w-[30px] h-[30px]" alt="" />
-        <div className="pb-3 text-3xl">OUR FACILITIES</div>
+        <div className="text-4xl font-medium mb-6">OUR FACILITIES</div>
         <TextGenerateEffectDemo />
       </div>
 

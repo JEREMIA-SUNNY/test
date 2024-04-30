@@ -50,7 +50,7 @@ const LineWithAnimation: React.FC<Props> = ({
         <motion.div
           className="line   rounded-xl h-[8px] flex-1"
           style={{
-            backgroundColor: div1Loaded ? "hsla(197, 74%, 43%, 1)" : "",
+            backgroundColor: div1Loaded ? "#0a3877" : "",
           }}
           initial={{ width: 0 }}
           animate={{ width: div1Loaded ? "100%" : 0 }}
@@ -70,7 +70,7 @@ const LineWithAnimation: React.FC<Props> = ({
         <motion.div
           className="line  rounded-xl h-[8px] flex-1"
           style={{
-            backgroundColor: div2Loaded ? "hsla(197, 74%, 43%, 1)" : "",
+            backgroundColor: div2Loaded ? "#0a3877" : "",
           }}
           initial={{ width: 0 }}
           animate={{ width: div2Loaded ? "100%" : 0 }}
@@ -90,14 +90,14 @@ const LineWithAnimation: React.FC<Props> = ({
         <motion.div
           className="line  rounded-xl h-[8px] flex-1"
           style={{
-            backgroundColor: div3Loaded ? "hsla(197, 74%, 43%, 1)" : "",
+            backgroundColor: div3Loaded ? "#0a3877" : "",
           }}
           initial={{ width: 0 }}
           animate={{ width: div3Loaded ? "100%" : 0 }}
           transition={{ duration: 8, ease: "easeOut" }}
         ></motion.div>
       </motion.div>
-      <motion.div
+      {/* <motion.div
         className="line border border-black rounded-xl h-[10px] flex-1"
         style={{
           background: "rgba(0,0,0,0.8)",
@@ -110,13 +110,13 @@ const LineWithAnimation: React.FC<Props> = ({
         <motion.div
           className="line  rounded-xl h-[8px] flex-1"
           style={{
-            background: div4Loaded ? "hsla(197, 74%, 43%, 1)" : "",
+            background: div4Loaded ? "#0a3877" : "",
           }}
           initial={{ width: 0 }}
           animate={{ width: div4Loaded ? "100%" : 0 }}
           transition={{ duration: 8, ease: "easeOut" }}
         ></motion.div>
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

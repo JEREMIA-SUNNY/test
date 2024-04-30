@@ -45,7 +45,7 @@ export const TextGenerateEffect = ({
         variants={{ visible: { opacity: 1 } }}
       >
         <motion.span
-          className="text-black font-Roboto text-end opacity-0"
+          className="text-black font-Montserrat text-end opacity-0"
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
         >
           We have two prestigious manufacturing units in Dubai Investment Park.

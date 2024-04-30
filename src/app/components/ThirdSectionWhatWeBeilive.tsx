@@ -26,7 +26,7 @@ function ThirdSectionWhatWeBeilive() {
                     {" "}
                     BTA DRILLING, GUN DRILLING & HONING
                   </div>{" "}
-                  <div className="text-black font-medium font-Roboto">
+                  <div className="text-black font-medium font-Montserrat">
                     {" "}
                     Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                     Lorem ipsum dolor sit amet.
@@ -58,7 +58,7 @@ function ThirdSectionWhatWeBeilive() {
                     {" "}
                     CYLINDRICAL & SURFACE GRINDING
                   </div>{" "}
-                  <div className="text-black font-medium font-Roboto ">
+                  <div className="text-black font-medium font-Montserrat ">
                     {" "}
                     Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                     Lorem ipsum dolor sit amet.
@@ -90,7 +90,7 @@ function ThirdSectionWhatWeBeilive() {
                     {" "}
                     CNC TURNING
                   </div>{" "}
-                  <div className="text-black font-medium font-Roboto">
+                  <div className="text-black font-medium font-Montserrat">
                     {" "}
                     Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                     Lorem ipsum dolor sit amet.

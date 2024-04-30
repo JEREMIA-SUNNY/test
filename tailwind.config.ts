@@ -13,9 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        BlueTNF: "#0a3877",
+        greenTNF: "#486c05",
+      },
       fontFamily: {
         Anta: ["Anta", "sans-serif"],
-        Roboto: ["Roboto","sans-serif"],
+        Montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

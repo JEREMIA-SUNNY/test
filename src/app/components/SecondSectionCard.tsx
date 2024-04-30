@@ -7,7 +7,7 @@ function SecondSectionCard() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
       <div className="mr-20 pb-8">
-        <div className="text-2xl pb-3 text-end ">OUR INDUSTRIAL VERTICALS</div>
+        <div className="text-4xl pb-3 text-end ">OUR INDUSTRIAL VERTICALS</div>
       </div>
 
       <div>

@@ -60,19 +60,19 @@ const items = [
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Repair and  overhaul",
+    title: "REPAIR AND OVERHAUL",
     description: "Join the quest for understanding and enlightenment.",
     header: "/mech4.jpg",
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Oem",
+    title: "OEM",
     description: "Experience the thrill of bringing ideas to life.",
     header: "/mech5.jpg",
     icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "Automotive",
+    title: "AUTOMOTIVE",
     description: "Embark on exciting journeys and thrilling discoveries.",
     header: "/auto.jpg",
     icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
