@@ -98,16 +98,16 @@ export default function Home() {
                   transition={{ duration: 1.5, ease: "easeInOut" }}
                   className="h-screen  flex flex-col justify-evenly"
                 >
-                  <div className=" flex justify-center">
+                  <div className=" flex justify-center font-Montserrat">
                     <div className="flex flex-col basis-[80%] justify-center">
                       <div className="text-4xl pt-8 pb-8 font-extrabold">
                         A Glorious Legacy of Experience
                         <br /> And Expertise
                       </div>
                       <div className="flex items-center">
-                        <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-greenTNF text-lg shadow">
-                          <div className="absolute inset-0 w-0 bg-black transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                          <span className="relative text-white group-hover:text-white">
+                        <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                          <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                          <span className="relative text-black group-hover:text-white">
                             Learn More
                           </span>
                         </button>
@@ -131,14 +131,16 @@ export default function Home() {
                       <div className="text-4xl pt-8 pb-8 font-extrabold">
                         A Global Machine Shop <br /> For all your need
                       </div>
-                      <div className="flex items-center">
+                      <div className="flex items-center font-Montserrat">
                         <div className="flex ">
-                          <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-greenTNF text-lg shadow">
-                            <div className="absolute inset-0 w-0 bg-black transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                            <span className="relative text-white group-hover:text-white">
-                              Learn More
-                            </span>
-                          </button>
+                          <div className="flex items-center">
+                            <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                              <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                              <span className="relative text-black group-hover:text-white">
+                                Learn More
+                              </span>
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -161,10 +163,10 @@ export default function Home() {
                       <div className="text-4xl pt-8 pb-8 font-extrabold">
                         Credibility Rooted in <br /> Proven Reliability
                       </div>
-                      <div className="flex items-center">
-                        <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-greenTNF text-lg shadow">
-                          <div className="absolute inset-0 w-0 bg-black transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                          <span className="relative text-white group-hover:text-white">
+                      <div className="flex items-center font-Montserrat">
+                        <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                          <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                          <span className="relative text-black group-hover:text-white">
                             Learn More
                           </span>
                         </button>
@@ -219,10 +221,10 @@ export default function Home() {
                         support to various OEMs around the world meeting their
                         needs and specifications.
                       </p>
-                      <div className="flex items-center">
-                        <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-greenTNF  text-lg shadow">
-                          <div className="absolute inset-0 w-0 bg-black transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                          <span className="relative text-white group-hover:text-white">
+                      <div className="flex items-center font-Montserrat">
+                        <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                          <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                          <span className="relative text-black group-hover:text-white">
                             Learn More
                           </span>
                         </button>
@@ -324,10 +326,10 @@ export default function Home() {
               </div>
               <div className="   w- -4 flex justify-center pt-8 ">
                 {" "}
-                <div className="flex ">
-                  <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-greenTNF  border-black text-lg shadow">
-                    <div className="absolute inset-0 w-0 bg-black transition-all duration-[500ms] ease-out group-hover:w-full"></div>
-                    <span className="relative text-white group-hover:text-white">
+                <div className="flex  font-Montserrat">
+                  <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                    <span className="relative text-black group-hover:text-white">
                       Learn More
                     </span>
                   </button>

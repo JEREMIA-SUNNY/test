@@ -8,7 +8,7 @@ interface props {
 const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
   return (
     <>
-      <div className="flex  items-center  h-full w-full">
+      <div className="flex  items-center font-Anta  h-full w-full">
         <nav className="  w-full  z-[1000]  inset-0 ">
           <div className="flex md:container md:px-0 px-2 items-center justify-between md:mx-auto ">
             <div>

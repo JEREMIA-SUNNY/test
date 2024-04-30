@@ -213,14 +213,14 @@ export default function SuggestedCarousel() {
           <motion.div
             layout
             className={cn(
-              "grid h-full place-items-center rounded-full bg-greenTNF",
+              "grid h-full place-items-center rounded-full bg-lime-300",
               hoverType === "click" && "absolute inset-7 h-auto"
             )}
           >
             <motion.span
               layout="position"
               className={cn(
-                "w-full select-none text-center font-medium uppercase text-white",
+                "w-full select-none text-center font-medium uppercase text-gray-900",
                 (hoverType === "prev" || hoverType === "next") &&
                   "absolute inset-x-0 top-2",
                 hoverType === "click" &&
