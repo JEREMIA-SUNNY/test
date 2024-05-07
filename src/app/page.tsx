@@ -2,17 +2,11 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { BentoGridDemo } from "./Accenti";
-import { HeroScrollDemo } from "./HeroScoreDemo";
 import LineWithAnimation from "./LineWithAnimation";
-import ScrollProgressBar from "./ScrollProgressBar";
-import SuggestedCarousel from "./Slider";
-import SmoothScroll from "./Smoothscroll.component";
 import { TypewriterEffectSmoothDemo } from "./TypeWriteEffect";
 import FirstSectionSolving from "./components/FirstSectionSolving";
-import NavBar from "./components/NavBar";
 import SecondSectionCard from "./components/SecondSectionCard";
 import ThirdSectionWhatWeBeilive from "./components/ThirdSectionWhatWeBeilive";
-import NavSidebar from "./NavSideBar";
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
   const [div1Loaded, setDiv1Loaded] = useState(false);
@@ -206,7 +200,22 @@ export default function Home() {
                         alt="Layout Image"
                       />
                     </div>
-                    <div className="w-1/2">
+                    <motion.div
+                      initial={{
+                        x: 200,
+                        opacity: 0,
+                      }}
+                      whileInView={{
+                        x: 0,
+                        opacity: 1,
+                      }}
+                      transition={{
+                        duration: 0.8,
+                        ease: "linear",
+                      }}
+                      viewport={{ once: true }}
+                      className="w-1/2"
+                    >
                       <h1 className="text-4xl font-medium mb-6">
                         SOLVING WITH PRECISION
                       </h1>
@@ -229,7 +238,7 @@ export default function Home() {
                           </span>
                         </button>
                       </div>
-                    </div>
+                    </motion.div>
                   </div>
                 </div>
               </section>
@@ -308,7 +317,7 @@ export default function Home() {
             </section>
           </div>
 
-          <section className="flex bg-[#f2f2f2] pb-12 justify-center w-full">
+          <section className="flex bg-[#f2f2f2]  justify-center w-full">
             <FirstSectionSolving />
           </section>
 

@@ -6,8 +6,24 @@ import { TextGenerateEffectDemoTwo } from "../OxygenEffect2";
 function SecondSectionCard() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
-      <div className="mr-20 pb-8">
-        <div className="text-4xl pb-3 text-end ">OUR INDUSTRIAL VERTICALS</div>
+      <div className="flex justify-center relative w-full">
+        {" "}
+        <div className="w-full basis-[70%] font- text-sm pt-9 pb-">
+          <div className=" w-full basis-[80%]  text-4xl font-medium  pb-28">
+            OUR INDUSTRIAL VERTICALS
+          </div>
+        </div>
+        <div className="   w- -4 flex justify-center pt-8 ">
+          {" "}
+          <div className="flex  font-Montserrat">
+            <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+              <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+              <span className="relative text-black group-hover:text-white">
+                Learn More
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
 
       <div>
@@ -21,17 +37,11 @@ function SecondSectionCard() {
                   className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  mt- rounded-xl px-4 bg-white">
+              <div className="rounded-xl px-4 bg-white pb-2">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   Petrochemical Industry
                 </div>{" "}
-                <div className="flex gap-3 pb-2 text-[#2893ba]">
-                  <div className="flex justify-center items-center">
-                    <FaLongArrowAltRight />
-                  </div>{" "}
-                  Learn More{" "}
-                </div>
               </div>
             </div>
             <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
@@ -42,17 +52,11 @@ function SecondSectionCard() {
                   className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  rounded-xl px-4">
+              <div className="  rounded-xl pb-2 px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   Construction Industry
                 </div>{" "}
-                <div className="flex gap-3  pb-2 text-[#2893ba]">
-                  <div className="flex justify-center items-center">
-                    <FaLongArrowAltRight />
-                  </div>{" "}
-                  Learn More{" "}
-                </div>
               </div>
             </div>
 
@@ -64,17 +68,11 @@ function SecondSectionCard() {
                   className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  rounded-xl px-4">
+              <div className="  rounded-xl pb-2 px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   Original Equipment Manufacturers
                 </div>{" "}
-                <div className="flex gap-3  pb-2 text-[#2893ba]">
-                  <div className="flex justify-center items-center">
-                    <FaLongArrowAltRight />
-                  </div>{" "}
-                  Learn More{" "}
-                </div>
               </div>
             </div>
 
@@ -86,17 +84,11 @@ function SecondSectionCard() {
                   className="rounded-b-2xl w-[300px] hover:scale-110 transition-all duration-500 h-[500px] brightness-75 object-cover"
                 />
               </figure>
-              <div className="  rounded-xl px-4">
+              <div className="  rounded-xl pb-2 px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
                   Precision Engineering Industry
                 </div>{" "}
-                <div className="flex gap-3  pb-2 text-[#2893ba]">
-                  <div className="flex justify-center items-center">
-                    <FaLongArrowAltRight />
-                  </div>{" "}
-                  Learn More{" "}
-                </div>
               </div>
             </div>
           </div>

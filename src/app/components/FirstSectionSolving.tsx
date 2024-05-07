@@ -1,197 +1,41 @@
 import { motion } from "framer-motion";
 import { TextGenerateEffectDemo } from "../OxygenEffect";
 import SuggestedCarousel from "../Slider";
+import { ImageCarousel } from "./ImageCar";
 
 function FirstSectionSolving() {
   return (
-    <div className="basis-[90%]  pt-20 pb-12">
-      <div className="ml-24 pb-8">
-        <div className="text-4xl font-medium mb-6">OUR FACILITIES</div>
-        <TextGenerateEffectDemo />
-      </div>
-
-      <div>
-        <SuggestedCarousel />
-        {/* <div className="flex  w-full justify-center">
-          <div className="flex md:flex-row flex-col justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
-            <motion.div
-              whileInView={{ x: -0 }}
-              animate={{ x: -200 }}
-              transition={{
-                type: "spring",
-                stiffness: 200,
-                damping: 15,
-                duration: 10,
-              }}
-              className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
-            >
-              <figure className="relative rounded-b-2xl">
-                <img
-                  src="/one.jpg"
-                  alt="Shoes"
-                  className="rounded-b-2xl w-[354px] h-[500px] brightness-75 object-cover"
-                />
-              </figure>
-              <div className="absolute ml-5 mt-8">
-                <div className="text-white font-medium text-2xl">
-                  {" "}
-                  Sustainability
-                </div>{" "}
-                <div className="text-white font-medium ">
-                  {" "}
-                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet.
+    <div className="basis-[100%]     ">
+      <section>
+        <div className="  flex justify-center items-center">
+          <section className="bg-cover basis-[80%] bg-center py-20 w-full">
+            <div className=" text-left text-black">
+              <div className="flex items-center gap-8">
+                <div className="w-1/2">
+                  <h1 className="text-4xl font-medium mb-6">OUR FACILITIES</h1>
+                  <p className="font-Montserrat mb-12">
+                    We have two prestigious manufacturing units in Dubai
+                    Investment Park 2. Our head office extends over 75,000 sq.
+                    ft. with synergic support from our branch office that
+                    extends over 55,000 sq. ft.
+                  </p>
+                  <div className="flex items-center font-Montserrat">
+                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                      <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                      <span className="relative text-black group-hover:text-white">
+                        Learn More
+                      </span>
+                    </button>
+                  </div>
+                </div>
+                <div className="w-1/2">
+                  <ImageCarousel />
                 </div>
               </div>
-              <div className="absolute bottom-5 right-5 rounded-full w-[70px] border-4  h-[70px]">
-                <motion.div className="flex h-full items-center justify-center">
-                  <motion.img
-                    src="/arrorw.png"
-                    className="w-[20px] h-[20px]"
-                    alt=""
-                  />
-                </motion.div>
-              </div>
-            </motion.div>
-            <motion.div
-              whileInView={{ x: -0 }}
-              animate={{ x: -200 }}
-              transition={{
-                type: "spring",
-                stiffness: 200,
-                damping: 15,
-                duration: 10,
-              }}
-              viewport={{ once: true }}
-              className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
-            >
-              <figure className="relative rounded-b-2xl">
-                <img
-                  src="/one.jpg"
-                  alt="Shoes"
-                  className="rounded-b-2xl w-[354px] h-[500px] brightness-75 object-cover"
-                />
-              </figure>
-              <div className="absolute ml-5 mt-8">
-                <div className="text-white font-medium text-2xl">
-                  {" "}
-                  Sustainability
-                </div>{" "}
-                <div className="text-white font-medium ">
-                  {" "}
-                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet.
-                </div>
-              </div>
-              <div className="absolute bottom-5 right-5 rounded-full w-[70px] border-4  h-[70px]">
-                <motion.div
-                  initial={{ x: -40 }} // Starting position off-screen to the left
-                  animate={{ x: 0 }} // Ending position at 0 (default)
-                  transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                  className="flex h-full items-center justify-center"
-                >
-                  <motion.img
-                    src="/arrorw.png"
-                    className="w-[20px] h-[20px]"
-                    alt=""
-                  />
-                </motion.div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              whileInView={{ x: -0 }}
-              animate={{ x: -200 }}
-              transition={{
-                type: "spring",
-                stiffness: 200,
-                damping: 15,
-                duration: 10,
-              }}
-              viewport={{ once: true }}
-              className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
-            >
-              <figure className="relative rounded-b-2xl">
-                <img
-                  src="/one.jpg"
-                  alt="Shoes"
-                  className="rounded-b-2xl w-[354px] h-[500px] brightness-75 object-cover"
-                />
-              </figure>
-              <div className="absolute ml-5 mt-8">
-                <div className="text-white font-medium text-2xl">
-                  {" "}
-                  Sustainability
-                </div>{" "}
-                <div className="text-white font-medium ">
-                  {" "}
-                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet.
-                </div>
-              </div>
-              <div className="absolute bottom-5 right-5 rounded-full w-[70px] border-4  h-[70px]">
-                <motion.div
-                  initial={{ x: -40 }} // Starting position off-screen to the left
-                  animate={{ x: 0 }} // Ending position at 0 (default)
-                  transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                  className="flex h-full items-center justify-center"
-                >
-                  <motion.img
-                    src="/arrorw.png"
-                    className="w-[20px] h-[20px]"
-                    alt=""
-                  />
-                </motion.div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              whileInView={{ x: -0 }}
-              animate={{ x: -200 }}
-              transition={{
-                type: "spring",
-                stiffness: 200,
-                damping: 15,
-                duration: 10,
-              }}
-              className="card  card-compact w-[354px] h-[500px]  bg-base-100 shadow-xl"
-            >
-              <figure className="relative rounded-b-2xl">
-                <img
-                  src="/one.jpg"
-                  alt="Shoes"
-                  className="rounded-b-2xl w-[354px] h-[500px] brightness-75 object-cover"
-                />
-              </figure>
-              <div className="absolute ml-5 mt-8">
-                <div className="text-white font-medium text-2xl">
-                  {" "}
-                  Sustainability
-                </div>{" "}
-                <div className="text-white font-medium ">
-                  {" "}
-                  Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet.
-                </div>
-              </div>
-              <div className="absolute bottom-5 right-5 rounded-full w-[70px] border-4  h-[70px]">
-                <motion.div
-                  initial={{ x: -40 }} // Starting position off-screen to the left
-                  animate={{ x: 0 }} // Ending position at 0 (default)
-                  transition={{ type: "spring", stiffness: 200, damping: 15 }}
-                  className="flex h-full items-center justify-center"
-                >
-                  <motion.img
-                    src="/arrorw.png"
-                    className="w-[20px] h-[20px]"
-                    alt=""
-                  />
-                </motion.div>
-              </div>
-            </motion.div>
-          </div>
-        </div> */}
-      </div>
+            </div>
+          </section>
+        </div>
+      </section>
     </div>
   );
 }

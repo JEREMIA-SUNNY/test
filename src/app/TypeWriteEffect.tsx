@@ -30,16 +30,7 @@ export function TypewriterEffectSmoothDemo() {
           <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
             <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span className="relative text-black group-hover:text-white">
-              Join now
-            </span>
-          </button>
-        </div>
-
-        <div className="flex items-center">
-          <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
-            <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black group-hover:text-white">
-              Sign up
+              Contact With Us
             </span>
           </button>
         </div>
