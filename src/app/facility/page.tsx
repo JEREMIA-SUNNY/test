@@ -31,7 +31,7 @@ function Service() {
           viewport={{ once: true }}
           className="text-4xl font-Anta text-white"
         >
-          INDUSTRIES SERVED
+          FACILITIES
         </motion.div>
       </div>
       <section>

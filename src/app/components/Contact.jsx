@@ -25,7 +25,7 @@ export default function Contact() {
     const { name, email, phone, interest, info } = data;
     try {
       const response = await fetch(
-        "https://pmruxjozak443ii7egmpzkpqti0anequ.lambda-url.ap-south-1.on.aws/",
+        "",
 
         {
           method: "POST",
@@ -180,7 +180,7 @@ export default function Contact() {
 
       <section className="w-full">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.2856438459257!2d77.63598241536467!3d12.889345220163921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14b089698d85%3A0x9b02d066823e0b2d!2sSFJ%20Business%20Solutions%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1657910713116!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7154.668938751763!2d49.9620689!3d26.2832551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e361d3a6940c867%3A0x875713b9c76b942e!2sEverest%20Mechanical%20Industries%20international%20Co!5e0!3m2!1sen!2sin!4v1715179789487!5m2!1sen!2sin"
           width="100%"
           height="600"
           allowFullScreen=""
