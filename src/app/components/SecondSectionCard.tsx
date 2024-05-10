@@ -10,7 +10,7 @@ function SecondSectionCard() {
         {" "}
         <div className="w-full basis-[70%] font- text-sm pt-9 pb-">
           <div className=" w-full basis-[80%]  text-4xl font-medium  pb-28">
-            OUR INDUSTRIAL VERTICALS
+            OUR INDUSTRIAL
           </div>
         </div>
         <div className="   w- -4 flex justify-center pt-8 ">

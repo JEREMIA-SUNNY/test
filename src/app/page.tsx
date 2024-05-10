@@ -374,7 +374,15 @@ export default function Home() {
             <ThirdSectionWhatWeBeilive />
           </section>
 
-          <section className="flex py-32 justify-center bg-[#f2f2f2] w-full">
+          <section
+            style={{
+              backgroundImage: `url("/slider/3.jpg")`,
+              backgroundSize: "100%",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="flex py-32 justify-center  w-full"
+          >
             <TypewriterEffectSmoothDemo />
           </section>
         </main>
