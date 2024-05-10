@@ -7,6 +7,7 @@ import { TypewriterEffectSmoothDemo } from "./TypeWriteEffect";
 import FirstSectionSolving from "./components/FirstSectionSolving";
 import SecondSectionCard from "./components/SecondSectionCard";
 import ThirdSectionWhatWeBeilive from "./components/ThirdSectionWhatWeBeilive";
+import Link from "next/link";
 export default function Home() {
   const [loaded, setLoaded] = useState(false);
   const [div1Loaded, setDiv1Loaded] = useState(false);
@@ -94,7 +95,7 @@ export default function Home() {
                 >
                   <div className=" flex justify-center font-Montserrat">
                     <div className="flex flex-col basis-[80%] justify-center">
-                      <div className="text-4xl pt-8 pb-8 font-extrabold">
+                      <div className="text-4xl font-Anta  pt-8 pb-8 font-extrabold">
                         A Glorious Legacy of Experience
                         <br /> And Expertise
                       </div>
@@ -122,7 +123,7 @@ export default function Home() {
                 >
                   <div className=" flex justify-center">
                     <div className="flex flex-col basis-[80%] justify-center">
-                      <div className="text-4xl pt-8 pb-8 font-extrabold">
+                      <div className="text-4xl font-Anta pt-8 pb-8 font-extrabold">
                         A Global Machine Shop <br /> For all your need
                       </div>
                       <div className="flex items-center font-Montserrat">
@@ -153,7 +154,6 @@ export default function Home() {
                 >
                   <div className=" flex justify-center">
                     <div className="flex flex-col basis-[80%] justify-center">
-                      <div>Titles one and two</div>
                       <div className="text-4xl pt-8 pb-8 font-extrabold">
                         Credibility Rooted in <br /> Proven Reliability
                       </div>
@@ -270,7 +270,7 @@ export default function Home() {
                         alt=""
                       />
                       <p className="w-[200px]">
-                        <span className="text-4xl">26 K+ </span> <br />{" "}
+                        <span className="text-3xl">26 K+ </span> <br />{" "}
                         <span className="text-base">
                           CNC MACHINE <br />
                           HOURS PER MONTH
@@ -284,7 +284,7 @@ export default function Home() {
                         alt=""
                       />
                       <p className="w-[200px]">
-                        <span className="text-4xl">260 + </span> <br />{" "}
+                        <span className="text-3xl">260 + </span> <br />{" "}
                         <span className="text-base">
                           SKILLED & SEASONED <br /> STAFF
                         </span>
@@ -335,14 +335,14 @@ export default function Home() {
               </div>
               <div className="   w- -4 flex justify-center pt-8 ">
                 {" "}
-                <div className="flex  font-Montserrat">
+                <Link href={"/services"} className="flex  font-Montserrat">
                   <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                     <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                     <span className="relative text-black group-hover:text-white">
                       Learn More
                     </span>
                   </button>
-                </div>
+                </Link>
               </div>
             </div>
             <div className="basis-[80%] px-16 flex container mx-auto">

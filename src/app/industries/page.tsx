@@ -61,7 +61,7 @@ function Service() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-4xl font-Anta text-white"
+          className="text-3xl font-Anta text-white"
         >
           INDUSTRIES
         </motion.div>
@@ -79,7 +79,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     PETROCHEMICAL INDUSTRY
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -120,7 +120,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     CONSTRUCTION INDUSTRY
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -161,7 +161,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     ORIGINAL EQUIPMENT MANUFACTURERS
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -195,7 +195,7 @@ function Service() {
             <div className=" text-left text-black">
               <div className="flex items-center gap-8">
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     PRECISION ENGINEERING INDUSTRY
                   </h1>
                   <p className="font-Montserrat mb-12">

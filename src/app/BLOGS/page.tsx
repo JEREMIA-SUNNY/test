@@ -210,7 +210,7 @@ export default function BLOGS() {
                   className="w-fit flex flex-col lg:flex-1 py-4 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
                 >
                   <div>
-                    <div className=" w-full transition duration-150 ease-out hover:ease-in hover:opacity-50">
+                    <div className=" w-full transition duration-150 pb-3 ease-out hover:ease-in hover:opacity-50">
                       <Image
                         className=" flex-shrink-0 object-cover xl:w-[100%] xl:h-[rem]"
                         src={"/mec1.jpg"}
@@ -231,12 +231,15 @@ export default function BLOGS() {
                       repellendus distinctio iure nam.
                     </p>
                   </div>
-                  <div className="flex justify-center mt-6 ">
-                    <a href={link} rel="noreferrer" target="_blank">
-                      <p className="text-black font-Anta border-orange border-2  p-2 font-bold ease-in duration-300 rounded-md  hover:bg-orange  flex justify-center items-center text-left hover:cursor-pointer">
-                        Read More
-                      </p>
-                    </a>
+                  <div className="flex  justify-center pt-4">
+                    <div className="flex items-center">
+                      <button className="group relative h-10 w- px-5 overflow-hidden rounded-lg bg-white text-lg shadow">
+                        <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                        <span className="relative text-black group-hover:text-white">
+                          Read More
+                        </span>
+                      </button>
+                    </div>
                   </div>
                   <div className="w-full md:hidden block h-[1px] mt-5 bg-black"></div>
                 </div>

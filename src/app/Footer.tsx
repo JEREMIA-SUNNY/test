@@ -1,12 +1,13 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
   return (
     <>
       <footer className="footer font-Anta p-10 bg-BlueTNF text-base-content">
-        <div className="text-4xl font-bold">
+        <Link href={"/"} className="text-4xl font-bold">
           <img src="/footer.png" className="object-cover w- h-[100px]" alt="" />
-        </div>
+        </Link>
         <nav>
           <a className="text-white cursor-pointer">ABOUT US</a>
           <a className="text-white cursor-pointer">SERVICES</a>

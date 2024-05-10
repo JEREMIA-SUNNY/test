@@ -3,6 +3,7 @@ import { TextGenerateEffectDemo } from "../OxygenEffect";
 import { motion } from "framer-motion";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { TextGenerateEffectDemoTwo } from "../OxygenEffect2";
+import Link from "next/link";
 function SecondSectionCard() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
@@ -10,19 +11,19 @@ function SecondSectionCard() {
         {" "}
         <div className="w-full basis-[70%] font- text-sm pt-9 pb-">
           <div className=" w-full basis-[80%]  text-4xl font-medium  pb-28">
-            OUR INDUSTRIAL
+            OUR INDUSTRIES
           </div>
         </div>
         <div className="   w- -4 flex justify-center pt-8 ">
           {" "}
-          <div className="flex  font-Montserrat">
+          <Link href={"/industries"} className="flex  font-Montserrat">
             <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
               <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
               <span className="relative text-black group-hover:text-white">
                 Learn More
               </span>
             </button>
-          </div>
+          </Link>
         </div>
       </div>
 

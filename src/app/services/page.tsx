@@ -59,7 +59,7 @@ function Service() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-4xl font-Anta text-white"
+          className="text-3xl font-Anta text-white"
         >
           SERVICES
         </motion.div>
@@ -80,7 +80,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     CNC MILLING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -118,7 +118,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-Anta font-medium mb-6">
+                  <h1 className="text-3xl font-Anta font-medium mb-6">
                     CNC TURNING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -159,7 +159,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     BTA DRILLING, GUN DRILLING & HONING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -199,7 +199,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     HEAT TREATMENT & CASE HARDENING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -240,7 +240,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     PHOSPHATING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -281,7 +281,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     CYLINDRICAL & SURFACE GRINDING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -322,7 +322,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     ELECTRIC DISCHARGE MACHINING SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -363,7 +363,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     DESIGN, MANUFACTURE & REPAIR SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">
@@ -404,7 +404,7 @@ function Service() {
                   />
                 </div>
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6 font-Anta">
+                  <h1 className="text-3xl font-medium mb-6 font-Anta">
                     INSPECTION SERVICES
                   </h1>
                   <p className="font-Montserrat mb-12">

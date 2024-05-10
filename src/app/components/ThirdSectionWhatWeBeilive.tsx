@@ -1,5 +1,6 @@
 import React from "react";
 import { TextGenerateEffectDemo } from "../OxygenEffect";
+import Link from "next/link";
 
 function ThirdSectionWhatWeBeilive() {
   const data = [
@@ -39,7 +40,8 @@ function ThirdSectionWhatWeBeilive() {
         <div className="flex w-full justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
             {data.map((item, i) => (
-              <div
+              <Link
+                href={"/BLOGS"}
                 key={i}
                 className="card   card-compact  h-[500px] relative  hover:scale-105 transition-all duration-500  "
               >
@@ -68,7 +70,7 @@ function ThirdSectionWhatWeBeilive() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

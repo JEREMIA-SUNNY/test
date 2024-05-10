@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { TypewriterEffectSmooth } from "./components/ui/typewriter-effect";
 export function TypewriterEffectSmoothDemo() {
   const words = [
@@ -26,14 +27,14 @@ export function TypewriterEffectSmoothDemo() {
       </p> */}
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0  gap-8 space-x-0 md:space-x-4">
-        <div className="flex items-center">
+        <Link href={"/contact-us"} className="flex  items-center">
           <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
             <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span className="relative text-black font-Montserrat group-hover:text-white">
               Contact Us
             </span>
           </button>
-        </div>
+        </Link>
       </div>
     </div>
   );

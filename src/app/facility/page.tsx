@@ -30,7 +30,7 @@ function Service() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-4xl font-Anta text-white"
+          className="text-3xl font-Anta text-white"
         >
           FACILITIES
         </motion.div>
