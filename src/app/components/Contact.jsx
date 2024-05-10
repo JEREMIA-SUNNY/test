@@ -71,7 +71,10 @@ export default function Contact() {
           </h1> */}
           <div className="flex mb-8 pt-4  justify-center ">
             <div className="md:w-2/5 pt-8 md:mt-0 mt-10 w-full">
-              <p className="text-2xl font-semibold  "> TSeek</p>
+              <p className="text-2xl font-semibold  ">
+                {" "}
+                Everest Mechanical Industries international Co
+              </p>
               <div className="flex pt-8  gap-5 ">
                 <nav>
                   <h6 className="footer-title">Social</h6>
@@ -113,10 +116,12 @@ export default function Contact() {
                 </nav>
 
                 <div className="text-base  text-black md:ml-4">
-                  <p className="font-semibold">CNC MILLING SERVICES</p>
-                  <p>2055, limestone RD STE 200-C,</p>
-                  <p>Wilmington,</p>
-                  <p>DE 19808, USAs</p>
+                  <p className="font-semibold">
+                    Everest Mechanical Industries international Co
+                  </p>
+                  <p>EIDB7761, 3759 الدمام 1266, 7761</p>
+                  <p>Dammam 34324, </p>
+                  <p>Saudi Arabia</p>
                 </div>
               </div>
             </div>
@@ -164,7 +169,7 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="flex justify-center  pt-8 ">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
                         Send Message

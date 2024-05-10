@@ -81,7 +81,7 @@ function About() {
         <div className="p-4 md:container flex  gap-10 mx-auto">
           <div className="w-auto font-Montserrat lg:min-w-[700px] flex-1 pb-10">
             <h1 className="text-4xl  tracking-wide font-bold font-Anta text-left  text-black">
-              Who We Are
+              WHO WE ARE 
             </h1>
             <p className="prose pt-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat

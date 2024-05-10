@@ -4,7 +4,9 @@ function Footer() {
   return (
     <>
       <footer className="footer font-Anta p-10 bg-BlueTNF text-base-content">
-        <div className="text-4xl font-bold">Tseek</div>
+        <div className="text-4xl font-bold">
+          <img src="/footer.png" className="object-cover w- h-[100px]" alt="" />
+        </div>
         <nav>
           <a className="text-white cursor-pointer">ABOUT US</a>
           <a className="text-white cursor-pointer">SERVICES</a>
@@ -13,7 +15,7 @@ function Footer() {
         <nav>
           {" "}
           <a className="text-white cursor-pointer">FACILITIES</a>
-          <a className="text-white cursor-pointer">NEWS</a>
+          <a className="text-white cursor-pointer">BLOGS</a>
           <h6 className=" text-white cursor-pointer"> CONTACT</h6>
         </nav>
 

@@ -1,8 +1,40 @@
 "use client";
 import { motion } from "framer-motion";
-import React from "react";
+
+import { Suspense } from "react";
+
+import React, { useEffect } from "react";
+import {
+  useParams,
+  usePathname,
+  useRouter,
+  useSearchParams,
+} from "next/navigation";
 
 function Service() {
+  const path = useParams();
+  // const searchParams = useSearchParams();
+  // const search = searchParams.get("name");
+  // console.log(search);
+  // is the numb
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const name = params.get("name");
+    console.log(name);
+    const scrollToSection = () => {
+      const section = document.getElementById(name ?? "");
+      if (section) {
+        const topOffset = section.offsetTop;
+        window.scrollTo({
+          top: topOffset,
+          behavior: "smooth",
+        });
+      }
+    };
+
+    // Scroll to the CNC section after a short delay to ensure page has rendered
+    setTimeout(scrollToSection, 100);
+  }, [path]);
   return (
     <>
       <div
@@ -34,7 +66,7 @@ function Service() {
           INDUSTRIES SERVED
         </motion.div>
       </div>
-      <section>
+      <section id="PETROCHEMICAL">
         <div className=" bg-gray-50 flex justify-center items-center">
           <section className="bg-cover basis-[80%] bg-center pt-24 py-12 w-full">
             <div className=" text-left text-black">
@@ -48,7 +80,7 @@ function Service() {
                 </div>
                 <div className="w-1/2">
                   <h1 className="text-4xl font-medium mb-6">
-                    SOLVING WITH PRECISION
+                    PETROCHEMICAL INDUSTRY
                   </h1>
                   <p className="font-Montserrat mb-12">
                     Perfect Tools is your trusted & reliable manufacturing
@@ -61,10 +93,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -75,7 +107,7 @@ function Service() {
         </div>
       </section>
 
-      <section>
+      <section id="CONSTRUCTION">
         <div className=" bg-gray-50 flex justify-center items-center">
           <section className="bg-cover basis-[80%] bg-center py-12 w-full">
             <div className=" text-left text-black">
@@ -89,7 +121,7 @@ function Service() {
                 </div>
                 <div className="w-1/2">
                   <h1 className="text-4xl font-medium mb-6">
-                    SOLVING WITH PRECISION
+                    CONSTRUCTION INDUSTRY
                   </h1>
                   <p className="font-Montserrat mb-12">
                     Perfect Tools is your trusted & reliable manufacturing
@@ -102,10 +134,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -116,7 +148,7 @@ function Service() {
         </div>
       </section>
 
-      <section>
+      <section id="ORIGINAL">
         <div className=" bg-gray-50 flex justify-center items-center">
           <section className="bg-cover basis-[80%] bg-center py-12 w-full">
             <div className=" text-left text-black">
@@ -130,7 +162,7 @@ function Service() {
                 </div>
                 <div className="w-1/2">
                   <h1 className="text-4xl font-medium mb-6">
-                    SOLVING WITH PRECISION
+                    ORIGINAL EQUIPMENT MANUFACTURERS
                   </h1>
                   <p className="font-Montserrat mb-12">
                     Perfect Tools is your trusted & reliable manufacturing
@@ -143,13 +175,55 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="PRECISION">
+        <div className=" bg-gray-50 flex justify-center items-center">
+          <section className="bg-cover basis-[80%] bg-center py-12 w-full">
+            <div className=" text-left text-black">
+              <div className="flex items-center gap-8">
+                <div className="w-1/2">
+                  <h1 className="text-4xl font-medium mb-6">
+                    PRECISION ENGINEERING INDUSTRY
+                  </h1>
+                  <p className="font-Montserrat mb-12">
+                    Perfect Tools is your trusted & reliable manufacturing
+                    solution provider, your one cnc machine shop – one stop for
+                    all your machining & heat treatment requirements. We are an
+                    API Q1, ISO 9001 QMS Certified Job Shop holding two Monogram
+                    Licences (API 7-1 & API 5CT). Our state-of-the-art
+                    manufacturing facilities located strategically in Dubai
+                    offer comprehensive manufacturing support to various OEMs
+                    around the world meeting their needs and specifications.
+                  </p>
+                  <div className="flex items-center font-Montserrat">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
+                      <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                      <span className="relative text-black group-hover:text-white">
+                        Contact Us
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                <div className="w-1/2">
+                  <img
+                    src="/serv.jpg"
+                    className="h-96 w-full object-cover rounded-xl"
+                    alt="Layout Image"
+                  />
                 </div>
               </div>
             </div>

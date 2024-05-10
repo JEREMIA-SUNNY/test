@@ -95,8 +95,49 @@ const SubmenuItemService = () => {
     </motion.div>
   );
 };
+
+interface props {
+  isToggled: boolean;
+  setToggle: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const SubmenuItemIndustree = () => {
+  return (
+    <motion.div
+      variants={item.variants}
+      transition={item.transition}
+      className="text-black text-left  py-3 mt-4  px-2 text-sm rounded-xl flex flex-col gap-4 bg-white min-w-[250px]"
+    >
+      <Link
+        href="/industries?name=PETROCHEMICAL"
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        PETROCHEMICAL INDUSTRY
+      </Link>
+      <Link
+        href={"/industries?name=CONSTRUCTION"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        CONSTRUCTION INDUSTRY
+      </Link>
+      <Link
+        href={"/industries?name=ORIGINAL"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        ORIGINAL EQUIPMENT MANUFACTURERS
+      </Link>
+      <Link
+        href={"/industries?name=PRECISION"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        PRECISION ENGINEERING INDUSTRY
+      </Link>
+    </motion.div>
+  );
+};
 const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
   const [isHover, toggleHover] = React.useState(false);
+  const [isHoverIndustree, toggleHoverIndustree] = React.useState(false);
   const [bgColor, setBgColor] = useState(false);
   const [textColor, setTextColor] = useState("white");
   const params = usePathname();
@@ -112,6 +153,9 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
   const toggleHoverMenu = () => {
     toggleHover(!isHover);
   };
+  const toggleHoverIndustreeFunction = () => {
+    toggleHoverIndustree(!isHoverIndustree);
+  };
 
   return (
     <>
@@ -124,7 +168,7 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
           <div className="flex md:container md:px-0 px-2 items-center justify-between md:mx-auto ">
             <div>
               <p className="font-extrabold    text-2xl">
-                <span className="font-bold text-greenTNF">T</span>seek.
+                <img src="/nav.png" alt="" className="h-[90px]" />
               </p>
             </div>
             <div className="flex gap-2 md:gap-4 font-medium">
@@ -174,7 +218,11 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
                   </motion.div>
                 )}
               </motion.div>
-              <div className=" text-lg font-medium hover:cursor-pointer">
+              <motion.div
+                onHoverStart={toggleHoverIndustreeFunction}
+                onHoverEnd={toggleHoverIndustreeFunction}
+                className=" text-lg font-medium hover:cursor-pointer"
+              >
                 <Link
                   href={"/industries"}
                   className="bg-left-bottom text-base
@@ -182,7 +230,18 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
                 >
                   INDUSTRIES
                 </Link>
-              </div>
+
+                {isHoverIndustree && (
+                  <motion.div
+                    initial="closed"
+                    animate="open"
+                    variants={menu}
+                    className="absolute bottom-[100] z-[20000]"
+                  >
+                    <SubmenuItemIndustree />
+                  </motion.div>
+                )}
+              </motion.div>
 
               <div className=" text-lg font-medium hover:cursor-pointer">
                 <Link
@@ -196,11 +255,11 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
 
               <div className=" text-lg font-medium hover:cursor-pointer">
                 <Link
-                  href={"/news"}
+                  href={"/BLOGS"}
                   className="bg-left-bottom text-base
                font-bah bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-700 ease-out"
                 >
-                  NEWS
+                  BLOGS
                 </Link>
               </div>
               <Link

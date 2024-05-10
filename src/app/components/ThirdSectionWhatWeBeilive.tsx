@@ -33,7 +33,7 @@ function ThirdSectionWhatWeBeilive() {
   return (
     <div className="basis-[90%]  pt-16 pb-12">
       <div className="ml-24 pb-8">
-        <div className="text-4xl font-medium">Blogs </div>
+        <div className="text-4xl font-medium">BLOGS</div>
       </div>
       <div>
         <div className="flex w-full justify-center">

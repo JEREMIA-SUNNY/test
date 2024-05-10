@@ -3,7 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import React from "react";
 
-export default function News() {
+export default function BLOGS() {
   const blog = [
     {
       id: 1,
@@ -29,7 +29,7 @@ export default function News() {
       logo: "/blog/3.jpg",
       desc: " Staffing and recruitment firms that embrace automation have a 64% higher fill rate, submit 33% more candidates per recruiter........",
       link: "",
-      auth: "Ait News desk",
+      auth: "Ait BLOGS desk",
       sorc: "aithority.com",
     },
     {
@@ -46,7 +46,7 @@ export default function News() {
       name: "Learning Trends in IT Skills",
       logo: "/blog/six.jpg",
       desc: " Over the last two decades, the rapid rise of digital technologies has resulted in organisations reevaluating........",
-      link: "https://moodle.com/news/workplace-learning-trends-power-skills/",
+      link: "https://moodle.com/BLOGS/workplace-learning-trends-power-skills/",
       auth: "Abby fry",
       sorc: "moodle.com",
     },
@@ -181,7 +181,7 @@ export default function News() {
   return (
     <>
       <Head>
-        <title> News</title>
+        <title> BLOGS</title>
         <meta
           name="description"
           content="SFJ Business Solutions Blogs-Where you can explore more about our ideas"
@@ -198,12 +198,12 @@ export default function News() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-4xl font-Anta text-white">NEWS</div>
+        <div className="text-4xl font-Anta text-white">BLOGS</div>
       </div>
       <section className="text-black bg-coustom1 body-font">
         <div className="container px-5 py-14 mx-auto">
           <div className="flex lg:grid md:grid md:grid-cols-3 lg:grid-cols-4 flex-wrap gap-1 ">
-            {blog.map(({ name, logo, id, desc, link, auth, sorc },i) => {
+            {blog.map(({ name, logo, id, desc, link, auth, sorc }, i) => {
               return (
                 <div
                   key={i}

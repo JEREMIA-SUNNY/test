@@ -91,10 +91,10 @@ function Service() {
                     provides CNC milling services up to the 6th axis.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -132,10 +132,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -173,10 +173,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -213,10 +213,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -254,10 +254,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -295,10 +295,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -336,10 +336,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -377,10 +377,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
@@ -418,10 +418,10 @@ function Service() {
                     around the world meeting their needs and specifications.
                   </p>
                   <div className="flex items-center font-Montserrat">
-                    <button className="group relative h-12 border-2 hover:border-0 border-black w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
+                    <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
-                        Learn More
+                        Contact Us
                       </span>
                     </button>
                   </div>
