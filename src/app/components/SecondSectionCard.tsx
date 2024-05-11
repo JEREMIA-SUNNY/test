@@ -10,7 +10,7 @@ function SecondSectionCard() {
       <div className="flex justify-center relative w-full">
         {" "}
         <div className="w-full basis-[70%] font- text-sm pt-9 pb-">
-          <div className=" w-full basis-[80%]  text-4xl font-medium  pb-28">
+          <div className=" w-full basis-[80%]  text-4xl font-medium  pb-16">
             OUR INDUSTRIES
           </div>
         </div>
