@@ -193,7 +193,7 @@ export default function SuggestedCarousel() {
   };
 
   return (
-    <section className="font-Anta">
+    <section className="font-Barlow">
       {/* <div className="text-center">
         <h1 className="text-sm text-gray-400 pt-8">OUR SOLUTIONS</h1>
         <p className=" mt-2 text-6xl font-bold pb-16 uppercase">OUR SERVICES</p>

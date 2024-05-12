@@ -29,7 +29,7 @@ function Service() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-4xl font-Anta text-white"
+          className="text-4xl font-Barlow text-white"
         >
           CNC MILLING SERVICES
         </motion.div>
@@ -50,7 +50,7 @@ function Service() {
                   <h1 className="text-4xl font-medium mb-6">
                     SOLVING WITH PRECISION
                   </h1>
-                  <p className="font-Montserrat mb-12">
+                  <p className="font-Barlow mb-12">
                     Perfect Tools is your trusted & reliable manufacturing
                     solution provider, your one cnc machine shop – one stop for
                     all your machining & heat treatment requirements. We are an
@@ -60,7 +60,7 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Montserrat">
+                  <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
@@ -91,7 +91,7 @@ function Service() {
                   <h1 className="text-4xl font-medium mb-6">
                     SOLVING WITH PRECISION
                   </h1>
-                  <p className="font-Montserrat mb-12">
+                  <p className="font-Barlow mb-12">
                     Perfect Tools is your trusted & reliable manufacturing
                     solution provider, your one cnc machine shop – one stop for
                     all your machining & heat treatment requirements. We are an
@@ -101,7 +101,7 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Montserrat">
+                  <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">
@@ -132,7 +132,7 @@ function Service() {
                   <h1 className="text-4xl font-medium mb-6">
                     SOLVING WITH PRECISION
                   </h1>
-                  <p className="font-Montserrat mb-12">
+                  <p className="font-Barlow mb-12">
                     Perfect Tools is your trusted & reliable manufacturing
                     solution provider, your one cnc machine shop – one stop for
                     all your machining & heat treatment requirements. We are an
@@ -142,7 +142,7 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Montserrat">
+                  <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className="relative text-black group-hover:text-white">

@@ -198,7 +198,7 @@ export default function BLOGS() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-4xl font-Anta text-white">BLOGS</div>
+        <div className="text-4xl font-Barlow text-white">BLOGS</div>
       </div>
       <section className="text-black bg-coustom1 body-font">
         <div className="container px-5 py-14 mx-auto">
@@ -220,12 +220,12 @@ export default function BLOGS() {
                       ></Image>
                     </div>
 
-                    <h1 className="title-font sm:text-2xl font-Anta text-xl text-left  text-gray-900 mb-3">
+                    <h1 className="title-font sm:text-2xl font-Barlow text-xl text-left  text-gray-900 mb-3">
                       TITLE
                     </h1>
-                    <p className="text-left font-Anta">Source : {sorc}</p>
-                    <p className="text-left font-Anta">Author : {auth}</p>
-                    <p className="leading-relaxed mt-5 text-left font-Montserrat">
+                    <p className="text-left font-Barlow">Source : {sorc}</p>
+                    <p className="text-left font-Barlow">Author : {auth}</p>
+                    <p className="leading-relaxed mt-5 text-left font-Barlow">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Ut quos illo dolorem, voluptates libero porro repudiandae
                       repellendus distinctio iure nam.

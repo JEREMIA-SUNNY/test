@@ -73,8 +73,8 @@ const Navbar: React.FC<prop> = ({ isToggled }) => {
         variants={navList}
         transition={{ duration: 5 }}
       >
-        <div className="text-white text-2xl  font-Anta">OUR SERVICES</div>
-        {items.map((item,i) => (
+        <div className="text-white text-2xl  font-Barlow">OUR SERVICES</div>
+        {items.map((item, i) => (
           <motion.li className="nav-item " variants={navItem} key={i}>
             <div className="flex  gap-4 transition-all duration-500 hover:scale-110 ease-linear px-2 justify-center">
               <div className="w-[30%]">
@@ -85,7 +85,7 @@ const Navbar: React.FC<prop> = ({ isToggled }) => {
                 />
               </div>
 
-              <div className=" w-[50%] min-w-[250px] text-left text-sm font-Montserrat">
+              <div className=" w-[50%] min-w-[250px] text-left text-sm font-Barlow">
                 <div>{item.Title}</div>
               </div>
             </div>

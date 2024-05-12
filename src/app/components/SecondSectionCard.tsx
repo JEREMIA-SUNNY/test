@@ -16,7 +16,7 @@ function SecondSectionCard() {
         </div>
         <div className="   w- -4 flex justify-center pt-8 ">
           {" "}
-          <Link href={"/industries"} className="flex  font-Montserrat">
+          <Link href={"/industries"} className="flex  font-Barlow">
             <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
               <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
               <span className="relative text-black group-hover:text-white">
@@ -56,7 +56,7 @@ function SecondSectionCard() {
               <div className="  rounded-xl pb-2 px-4">
                 <div className="text-black mt-4 font-medium text-2xl">
                   {" "}
-                  Construction Industry
+                  Construction <br /> Industry
                 </div>{" "}
               </div>
             </div>

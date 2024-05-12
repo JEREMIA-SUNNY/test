@@ -37,6 +37,7 @@ function RootLayout({
   }, []);
   return (
     <html className="!scroll-smooth" lang="en">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={inter.className}>
         <ScrollProgressBar />
         <SmoothScroll>

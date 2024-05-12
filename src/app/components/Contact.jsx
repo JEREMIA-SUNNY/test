@@ -64,9 +64,9 @@ export default function Contact() {
         <title>SFJ Business Solutions | Contact</title>
         <meta name="description" content="SFJ Business Solutions Contact Us" />
       </Head>
-      <section className="pt-12 font-Anta pb-12 text-zinc-900 bg-coustom1">
+      <section className="pt-12 font-Barlow pb-12 text-zinc-900 bg-coustom1">
         <div className="md:container p-4 mx-auto">
-          {/* <h1 className="text-4xl font-medium text-center font-Anta">
+          {/* <h1 className="text-4xl font-medium text-center font-Barlow">
             CONTACT US
           </h1> */}
           <div className="flex mb-8 pt-4  justify-center ">

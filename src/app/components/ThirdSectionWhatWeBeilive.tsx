@@ -58,7 +58,7 @@ function ThirdSectionWhatWeBeilive() {
                       {" "}
                       {item.text}
                     </div>{" "}
-                    <div className=" font-medium font-Montserrat">
+                    <div className=" font-medium font-Barlow">
                       {" "}
                       Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
                       Lorem ipsum dolor sit amet.

@@ -30,17 +30,16 @@ function Service() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-3xl font-Anta text-white"
+          className="text-3xl font-Barlow text-white"
         >
           FACILITIES
         </motion.div>
       </div>
-     <section className="flex justify-center py-8">
-      <div className="basis-[80%]">
-      <FacilityBentoDemo />
-      </div>
-
-     </section>
+      <section className="flex justify-center py-8">
+        <div className="basis-[80%]">
+          <FacilityBentoDemo />
+        </div>
+      </section>
     </>
   );
 }

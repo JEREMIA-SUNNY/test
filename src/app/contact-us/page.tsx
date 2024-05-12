@@ -15,7 +15,7 @@ const ContactUs = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-3xl font-Anta text-white">CONTACT US</div>
+        <div className="text-3xl font-Barlow text-white">CONTACT US</div>
       </div>
       <Contact />
     </div>

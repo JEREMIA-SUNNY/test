@@ -162,17 +162,17 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
       <div
         className={`flex text-${textColor} ${
           bgColor ? "bg-" : "bg-white"
-        } items-center font-Anta  h-full w-full`}
+        } items-center font-Barlow  h-full w-full`}
       >
         <nav className="  w-full  z-[1000]  inset-0 ">
           <div className="flex md:container md:px-0 px-2 items-center justify-between md:mx-auto ">
             <Link href={"/"}>
-              <p className="font-extrabold    text-2xl">
-                <img src="/nav.png" alt="" className="h-[90px]" />
+              <p className="font-extrabold  pt-4 pb-4   text-2xl">
+                <img src="/footer.png" alt="" className="h-[60px]" />
               </p>
             </Link>
             <div className="flex gap-2 md:gap-4 font-medium">
-              <div className=" text-lg font-Anta font-medium  hover:cursor-pointer">
+              <div className=" text-lg font-Barlow font-medium  hover:cursor-pointer">
                 <Link
                   href={"/"}
                   className="bg-left-bottom text-base

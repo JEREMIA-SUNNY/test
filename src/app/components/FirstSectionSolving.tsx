@@ -14,7 +14,7 @@ function FirstSectionSolving() {
               <div className="flex items-center gap-8">
                 <div className="w-1/2">
                   <h1 className="text-4xl font-medium mb-6">OUR FACILITIES</h1>
-                  <p className="font-Montserrat mb-12">
+                  <p className="font-Barlow mb-12">
                     We have two prestigious manufacturing units in Dubai
                     Investment Park 2. Our head office extends over 75,000 sq.
                     ft. with synergic support from our branch office that
@@ -22,7 +22,7 @@ function FirstSectionSolving() {
                   </p>
                   <Link
                     href={"/facility"}
-                    className="flex items-center font-Montserrat"
+                    className="flex items-center font-Barlow"
                   >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>

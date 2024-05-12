@@ -30,7 +30,7 @@ export function TypewriterEffectSmoothDemo() {
         <Link href={"/contact-us"} className="flex  items-center">
           <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
             <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-            <span className="relative text-black font-Montserrat group-hover:text-white">
+            <span className="relative text-black font-Barlow group-hover:text-white">
               Contact Us
             </span>
           </button>

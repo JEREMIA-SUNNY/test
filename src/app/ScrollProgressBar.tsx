@@ -40,7 +40,7 @@ function ScrollProgressBar() {
         left: 0,
         width: "100%",
         height: 6,
-        backgroundColor: "#486c05",
+        backgroundColor: "#005d83",
         zIndex: 9999,
 
         // Scale the bar based on scroll progress

@@ -56,7 +56,7 @@ function About() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className=" text-3xl font-Anta text-white"
+          className=" text-3xl font-Barlow text-white"
         >
           ABOUT US
         </motion.div>
@@ -79,9 +79,9 @@ function About() {
         id="WhoWe-Are"
       >
         <div className="p-4 md:container flex  gap-10 mx-auto">
-          <div className="w-auto font-Montserrat lg:min-w-[700px] flex-1 pb-10">
-            <h1 className=" text-3xl  tracking-wide font-medium font-Anta text-left  text-black">
-              WHO WE ARE 
+          <div className="w-auto font-Barlow lg:min-w-[700px] flex-1 pb-10">
+            <h1 className=" text-3xl  tracking-wide font-medium font-Barlow text-left  text-black">
+              WHO WE ARE
             </h1>
             <p className="prose pt-8">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -101,7 +101,7 @@ function About() {
               odit quas voluptas. Sequi nesciunt eos mollitia laborum tenetur
               repellendus quos, laudantium veniam iusto, dignissimos maxime.
             </p>
-            <p className="pt-8 font-Montserrat">
+            <p className="pt-8 font-Barlow">
               Our Motto: <b className="text-lg">S</b>olve business challenges.{" "}
               <b className="text-lg">F</b>oster agility and growth.{" "}
               <b className="text-lg">J</b>ubilate customer success.
@@ -125,11 +125,11 @@ function About() {
         <div className="w-full bg-[#f2f2f2]">
           <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
             <div className="text-center pb-12">
-              <h1 className=" text-3xl  tracking-wide font-medium font-Anta text-left  text-black">
+              <h1 className=" text-3xl  tracking-wide font-medium font-Barlow text-left  text-black">
                 OUR TEAM
               </h1>
             </div>
-            <div className="grid grid-cols-1 font-Anta sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 font-Barlow sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="w-full  rounded-lg sahdow-lg p-12 flex flex-col justify-center items-center">
                 <div className="mb-8">
                   <img

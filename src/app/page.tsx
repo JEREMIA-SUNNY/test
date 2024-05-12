@@ -60,7 +60,7 @@ export default function Home() {
     <>
       {" "}
       <main className="flex">
-        <main className="flex font-Anta flex-col  justify-between ">
+        <main className="flex font-Barlow flex-col  justify-between ">
           <section className=" text-white font-semibold font-Saira bg-black relative">
             <motion.div
               key={`${div1Loaded}${div2Loaded}${div3Loaded}${div4Loaded}`}
@@ -93,9 +93,9 @@ export default function Home() {
                   transition={{ duration: 1.5, ease: "easeInOut" }}
                   className="h-screen  flex flex-col justify-evenly"
                 >
-                  <div className=" flex justify-center font-Montserrat">
+                  <div className=" flex justify-center font-Barlow">
                     <div className="flex flex-col basis-[80%] justify-center">
-                      <div className="text-4xl font-Anta  pt-8 pb-8 font-extrabold">
+                      <div className="text-4xl font-Barlow  pt-8 pb-8 font-extrabold">
                         A Glorious Legacy of Experience
                         <br /> And Expertise
                       </div>
@@ -123,10 +123,10 @@ export default function Home() {
                 >
                   <div className=" flex justify-center">
                     <div className="flex flex-col basis-[80%] justify-center">
-                      <div className="text-4xl font-Anta pt-8 pb-8 font-extrabold">
+                      <div className="text-4xl font-Barlow pt-8 pb-8 font-extrabold">
                         A Global Machine Shop <br /> For all your need
                       </div>
-                      <div className="flex items-center font-Montserrat">
+                      <div className="flex items-center font-Barlow">
                         <div className="flex ">
                           <div className="flex items-center">
                             <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
@@ -157,7 +157,7 @@ export default function Home() {
                       <div className="text-4xl pt-8 pb-8 font-extrabold">
                         Credibility Rooted in <br /> Proven Reliability
                       </div>
-                      <div className="flex items-center font-Montserrat">
+                      <div className="flex items-center font-Barlow">
                         <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
                           <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                           <span className="relative text-black group-hover:text-white">
@@ -219,7 +219,7 @@ export default function Home() {
                       <h1 className="text-4xl font-medium mb-6">
                         SOLVING WITH PRECISION
                       </h1>
-                      <p className="font-Montserrat mb-12">
+                      <p className="font-Barlow mb-12">
                         Perfect Tools is your trusted & reliable manufacturing
                         solution provider, your one cnc machine shop – one stop
                         for all your machining & heat treatment requirements. We
@@ -230,7 +230,7 @@ export default function Home() {
                         support to various OEMs around the world meeting their
                         needs and specifications.
                       </p>
-                      <div className="flex items-center font-Montserrat">
+                      <div className="flex items-center font-Barlow">
                         <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                           <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                           <span className="relative text-black group-hover:text-white">
@@ -335,7 +335,7 @@ export default function Home() {
               </div>
               <div className="   w- -4 flex justify-center pt-8 ">
                 {" "}
-                <Link href={"/services"} className="flex  font-Montserrat">
+                <Link href={"/services"} className="flex  font-Barlow">
                   <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                     <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                     <span className="relative text-black group-hover:text-white">
