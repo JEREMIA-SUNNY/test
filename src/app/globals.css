@@ -90,3 +90,7 @@ h4 {
   /*background-color: turquoise;*/
   background: black;
 }
+
+.icon-link svg {
+  fill: #005d83;
+}

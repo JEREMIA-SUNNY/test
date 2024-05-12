@@ -36,7 +36,7 @@ function Service() {
   return (
     <Suspense>
       <div
-        className="h-[600px] pt-8 flex justify-center items-center bg-black"
+        className="h-[30px] pt-8 flex justify-center items-center bg-black"
         style={{
           backgroundImage: `url(${"/slider/3.jpg"})`,
           backgroundSize: "120%",
@@ -59,7 +59,7 @@ function Service() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className="text-3xl font-Barlow text-white"
+          className="text-3xl pt-8 font-Barlow text-white"
         >
           SERVICES
         </motion.div>
@@ -93,7 +93,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -134,7 +134,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -175,7 +175,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -215,7 +215,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -256,7 +256,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -297,7 +297,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -338,7 +338,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -379,7 +379,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
@@ -420,7 +420,7 @@ function Service() {
                   <div className="flex items-center font-Barlow">
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                      <span className="relative text-black group-hover:text-white">
+                      <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>

@@ -33,7 +33,7 @@ function About() {
   return (
     <>
       <div
-        className="h-[600px] pt-8 flex justify-center items-center bg-black"
+        className="h-[350px] pt-8 flex justify-center items-center bg-black"
         style={{
           backgroundImage: `url(${"/slider/3.jpg"})`,
           backgroundSize: "120%",
@@ -56,7 +56,7 @@ function About() {
             ease: "linear",
           }}
           viewport={{ once: true }}
-          className=" text-3xl font-Barlow text-white"
+          className=" text-3xl pt-8 font-Barlow text-white"
         >
           ABOUT US
         </motion.div>
@@ -100,11 +100,6 @@ function About() {
               necessitatibus similique possimus facilis qui illo minima fugit
               odit quas voluptas. Sequi nesciunt eos mollitia laborum tenetur
               repellendus quos, laudantium veniam iusto, dignissimos maxime.
-            </p>
-            <p className="pt-8 font-Barlow">
-              Our Motto: <b className="text-lg">S</b>olve business challenges.{" "}
-              <b className="text-lg">F</b>oster agility and growth.{" "}
-              <b className="text-lg">J</b>ubilate customer success.
             </p>
           </div>
 

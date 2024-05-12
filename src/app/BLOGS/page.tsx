@@ -189,7 +189,7 @@ export default function BLOGS() {
       </Head>
 
       <div
-        className="h-[600px] pt-8 flex justify-center items-center bg-black"
+        className="h-[350px] pt-8 flex justify-center items-center bg-black"
         style={{
           backgroundImage: `url(${"/slider/3.jpg"})`,
           backgroundSize: "120%",
@@ -198,7 +198,7 @@ export default function BLOGS() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="text-4xl font-Barlow text-white">BLOGS</div>
+        <div className="text-4xl pt-8 font-Barlow text-white">BLOGS</div>
       </div>
       <section className="text-black bg-coustom1 body-font">
         <div className="container px-5 py-14 mx-auto">

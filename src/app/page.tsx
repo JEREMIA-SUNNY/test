@@ -102,7 +102,7 @@ export default function Home() {
                       <div className="flex items-center">
                         <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
                           <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                          <span className="relative text-black group-hover:text-white">
+                          <span className="relative text-greenTNF group-hover:text-white">
                             Learn More
                           </span>
                         </button>
@@ -131,7 +131,7 @@ export default function Home() {
                           <div className="flex items-center">
                             <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
                               <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                              <span className="relative text-black group-hover:text-white">
+                              <span className="relative text-greenTNF group-hover:text-white">
                                 Learn More
                               </span>
                             </button>
@@ -160,7 +160,7 @@ export default function Home() {
                       <div className="flex items-center font-Barlow">
                         <button className="group relative h-12 w- px-8 overflow-hidden rounded-lg bg-white text-lg shadow">
                           <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                          <span className="relative text-black group-hover:text-white">
+                          <span className="relative text-greenTNF group-hover:text-white">
                             Learn More
                           </span>
                         </button>
@@ -233,7 +233,7 @@ export default function Home() {
                       <div className="flex items-center font-Barlow">
                         <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                           <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                          <span className="relative text-black group-hover:text-white">
+                          <span className="relative font-semibold text-greenTNF group-hover:text-white">
                             Learn More
                           </span>
                         </button>
@@ -338,7 +338,7 @@ export default function Home() {
                 <Link href={"/services"} className="flex  font-Barlow">
                   <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                     <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                    <span className="relative text-black group-hover:text-white">
+                    <span className="relative font-semibold text-greenTNF group-hover:text-white">
                       Learn More
                     </span>
                   </button>

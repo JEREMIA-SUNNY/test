@@ -7,7 +7,7 @@ function Service() {
   return (
     <>
       <div
-        className="h-[600px] pt-8 flex justify-center items-center bg-black"
+        className="h-[350px] pt-8 flex justify-center items-center bg-black"
         style={{
           backgroundImage: `url(${"/slider/3.jpg"})`,
           backgroundSize: "120%",
@@ -35,7 +35,7 @@ function Service() {
           FACILITIES
         </motion.div>
       </div>
-      <section className="flex justify-center py-8">
+      <section className="flex pt-8 justify-center py-8">
         <div className="basis-[80%]">
           <FacilityBentoDemo />
         </div>
