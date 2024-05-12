@@ -6,7 +6,7 @@ function Footer() {
     <>
       <footer className="footer font-Barlow p-10 bg-white text-base-content">
         <Link href={"/"} className="text-4xl font-bold pt-2">
-          <img src="/footer.png" className="object-cover w- h-[45px]" alt="" />
+          <img src="/footer.png" className="object-cover w- h-[60px]" alt="" />
         </Link>
         <nav>
           <a className="text-black cursor-pointer">ABOUT US</a>
