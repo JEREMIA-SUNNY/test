@@ -77,7 +77,7 @@ export default function Contact() {
               </p>
               <div className="flex pt-8  gap-5 ">
                 <nav>
-                  <h6 className="footer-title">Social</h6>
+                  <h6 className="footer-title">Find Us On</h6>
                   <div className="grid grid-flow-col gap-4">
                     <a className="icon-link">
                       <svg
@@ -123,7 +123,21 @@ export default function Contact() {
                   <p>EIDB7761, 3759 الدمام 1266, 7761</p>
                   <p>Dammam 34324, </p>
                   <p>Saudi Arabia</p>
+
+                  <p className="pt-2 ">
+                    {" "}
+                    <span className="font-semibold">Phone :</span> +966 55 866
+                    5998
+                  </p>
+
+                  <p className="pt-2 ">
+                    {" "}
+                    <span className="font-semibold">Email :</span>{" "}
+                    trancil@emi-saudi.com
+                  </p>
                 </div>
+
+                <div></div>
               </div>
             </div>
             <div className="flex   pt-8  justify-start w-1/2 ">
@@ -139,10 +153,10 @@ export default function Contact() {
                       <input
                         type="text"
                         name="name"
-                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-BlueTNF focus:outline-none focus:ring-0"
                         placeholder=" "
                       />
-                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text- text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-BlueTNF border-BlueTNF ">
                         Your name
                       </label>
                     </div>
@@ -150,10 +164,10 @@ export default function Contact() {
                       <input
                         type="text"
                         name="email"
-                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-BlueTNF focus:outline-none focus:ring-0"
                         placeholder=" "
                       />
-                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text- text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-BlueTNF ">
                         Your email
                       </label>
                     </div>
@@ -162,10 +176,10 @@ export default function Contact() {
                       <input
                         type="text"
                         name="name"
-                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-BlueTNF focus:outline-none focus:ring-0"
                         placeholder=" "
                       />
-                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text- text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-BlueTNF ">
                         Your organization
                       </label>
                     </div>
@@ -173,10 +187,10 @@ export default function Contact() {
                       <input
                         type="text"
                         name="email"
-                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-BlueTNF focus:outline-none focus:ring-0"
                         placeholder=" "
                       />
-                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text- text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-BlueTNF ">
                         Your contact number
                       </label>
                     </div>
@@ -184,10 +198,10 @@ export default function Contact() {
                       <textarea
                         name="message"
                         rows="5"
-                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
+                        className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-BlueTNF focus:outline-none focus:ring-0"
                         placeholder=" "
                       ></textarea>
-                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">
+                      <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text- text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-BlueTNF border-BlueTNF ">
                         Your message
                       </label>
                     </div>

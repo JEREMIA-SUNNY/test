@@ -8,6 +8,23 @@ function Footer() {
         <Link href={"/"} className="text-4xl font-bold pt-2">
           <img src="/footer.png" className="object-cover w- h-[60px]" alt="" />
         </Link>
+
+        <div>
+          {" "}
+          <div className="text-base  text-black md:ml-4">
+            <p className="font-semibold">
+              Everest Mechanical Industries international Co
+            </p>
+            <p>EIDB7761, 3759 الدمام 1266, 7761</p>
+            <p>Dammam 34324, Saudi Arabia</p>
+            <p className=" ">
+              {" "}
+              <span className="font-semibold">Contact :</span> +966 55 866 5998
+              / trancil@emi-saudi.com
+            </p>
+          </div>
+        </div>
+
         <nav>
           <a href="/about" className="text-black cursor-pointer">
             ABOUT US
@@ -34,7 +51,7 @@ function Footer() {
         </nav>
 
         <nav>
-          <h6 className="footer-title">Social</h6>
+          <h6 className="font-semibold">FIND US ON </h6>
           <div className="grid grid-flow-col gap-4">
             <a className="icon-link">
               <svg
