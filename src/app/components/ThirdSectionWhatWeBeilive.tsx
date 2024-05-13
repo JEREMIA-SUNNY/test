@@ -62,10 +62,10 @@ function ThirdSectionWhatWeBeilive() {
                   <img
                     src={item.image}
                     alt="Shoes"
-                    className="rounded-b-2xl brightness-50 hover:scale-110 transition-all duration-500 w-full h-[500px]  object-cover"
+                    className="rounded-b-2xl brightness-50 hover:scale-110 transition-all duration-500 w-full h-[450px]  object-cover"
                   />
                 </figure>
-                <div className="Z-[1000] absolute bottom-0 px-4 text-white py-4">
+                <div className="Z-[1000] absolute bottom-0 mb-8 px-4 text-white py-4">
                   <div className=" mt-2">
                     <div className=" font-medium text-xl pb-3">
                       {" "}
