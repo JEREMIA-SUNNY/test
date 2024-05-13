@@ -8,6 +8,7 @@ import {
   useRouter,
   useSearchParams,
 } from "next/navigation";
+import Link from "next/link";
 
 function Service() {
   const path = useParams();
@@ -36,7 +37,7 @@ function Service() {
   return (
     <Suspense>
       <div
-        className="h-[30px] pt-8 flex justify-center items-center bg-black"
+        className="h-[360px] pt-8 flex justify-center items-center bg-black"
         style={{
           backgroundImage: `url(${"/slider/3.jpg"})`,
           backgroundSize: "120%",
@@ -90,14 +91,17 @@ function Service() {
                     Equipped with the latest generation of CAM Software, PT
                     provides CNC milling services up to the 6th axis.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -131,14 +135,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -172,14 +179,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -212,14 +222,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -253,14 +266,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -294,14 +310,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -335,14 +354,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -376,14 +398,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -417,14 +442,17 @@ function Service() {
                     offer comprehensive manufacturing support to various OEMs
                     around the world meeting their needs and specifications.
                   </p>
-                  <div className="flex items-center font-Barlow">
+                  <Link
+                    href={"/contact-us"}
+                    className="flex items-center font-Barlow"
+                  >
                     <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
                       <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
                       <span className=" relative  group-hover:text-white font-semibold text-greenTNF">
                         Contact Us
                       </span>
                     </button>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>

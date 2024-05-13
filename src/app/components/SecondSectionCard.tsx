@@ -9,8 +9,8 @@ function SecondSectionCard() {
     <div className="basis-[90%]  pt-16 pb-12">
       <div className="flex justify-center relative w-full">
         {" "}
-        <div className="w-full basis-[70%] font- text-sm pt-9 pb-">
-          <div className=" w-full basis-[80%]  text-4xl font-medium  pb-16">
+        <div className="w-full basis-[80%] font- text-sm pt-9 pb-">
+          <div className=" w-full basis-[0%]  text-4xl font-medium  pb-16">
             OUR INDUSTRIES
           </div>
         </div>
@@ -29,13 +29,13 @@ function SecondSectionCard() {
 
       <div>
         <div className="flex w-full justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-4 w-full rounded-b-full py-8 gap-20  basis-[90%]">
-            <div className="card rounded-3xl bg-white card-compact hover:scale-105 transition-all duration-500 w-[300px] h-[500px]   ">
+          <div className="grid grid-cols-1 md:grid-cols-4 w-full rounded-b-full py-8 gap-20   basis-[90%]">
+            <div className="card rounded-3xl bg-white card-compact hover:scale-105 transition-all duration-500 w-[300px] h-[450px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/petro.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[450px] brightness-75 object-cover"
                 />
               </figure>
               <div className="rounded-xl px-4 bg-white pb-2">
@@ -45,12 +45,12 @@ function SecondSectionCard() {
                 </div>{" "}
               </div>
             </div>
-            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[450px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/construction.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[450px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  rounded-xl pb-2 px-4">
@@ -61,12 +61,12 @@ function SecondSectionCard() {
               </div>
             </div>
 
-            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[450px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/equi.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl hover:scale-110 transition-all duration-500 w-[300px] h-[450px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  rounded-xl pb-2 px-4">
@@ -77,12 +77,12 @@ function SecondSectionCard() {
               </div>
             </div>
 
-            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[500px]   ">
+            <div className="card  hover:scale-105 transition-all duration-500 bg-white card-compact w-[300px] h-[450px]   ">
               <figure className="relative rounded-b-2xl">
                 <img
                   src="/eng.jpg"
                   alt="Shoes"
-                  className="rounded-b-2xl w-[300px] hover:scale-110 transition-all duration-500 h-[500px] brightness-75 object-cover"
+                  className="rounded-b-2xl w-[300px] hover:scale-110 transition-all duration-500 h-[450px] brightness-75 object-cover"
                 />
               </figure>
               <div className="  rounded-xl pb-2 px-4">

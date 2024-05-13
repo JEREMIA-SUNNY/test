@@ -321,10 +321,6 @@ export default function Home() {
             <FirstSectionSolving />
           </section>
 
-          {/* <section className="py-14">
-              <SuggestedCarousel />
-            </section> */}
-
           <section className="flex flex-col  py-16 pb-24 justify-center w-full">
             <div className="flex justify-center relative w-full">
               {" "}
@@ -350,25 +346,9 @@ export default function Home() {
             </div>
           </section>
 
-          <section
-            // style={{
-            //   backgroundImage: `url(${"/blur.jpeg"})`,
-            //   backgroundPosition: "center",
-            //   backgroundSize: "",
-            //   backgroundRepeat: "no-repeat",
-            // }}
-            className="flex  justify-center bg-[#f2f2f2]  w-full"
-          >
+          <section className="flex  justify-center bg-[#f2f2f2]  w-full">
             <SecondSectionCard />
           </section>
-
-          {/* <section className="flex justify-center w-full">
-                    <LayoutGridDemo />
-              </section> */}
-
-          {/* <section className="flex justify-center w-full">
-              <HeroScrollDemo />
-            </section> */}
 
           <section className="flex justify-center w-full">
             <ThirdSectionWhatWeBeilive />

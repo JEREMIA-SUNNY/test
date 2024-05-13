@@ -9,15 +9,28 @@ function Footer() {
           <img src="/footer.png" className="object-cover w- h-[60px]" alt="" />
         </Link>
         <nav>
-          <a className="text-black cursor-pointer">ABOUT US</a>
-          <a className="text-black cursor-pointer">SERVICES</a>
-          <a className="text-black cursor-pointer">INDUSTRIES </a>
+          <a href="/about" className="text-black cursor-pointer">
+            ABOUT US
+          </a>
+          <a href="/services" className="text-black cursor-pointer">
+            SERVICES
+          </a>
+          <a href="/industries" className="text-black cursor-pointer">
+            INDUSTRIES{" "}
+          </a>
         </nav>
         <nav>
           {" "}
-          <a className="text-black cursor-pointer">FACILITIES</a>
-          <a className="text-black cursor-pointer">BLOGS</a>
-          <h6 className=" text-black cursor-pointer"> CONTACT</h6>
+          <a href="/facility" className="text-black cursor-pointer">
+            FACILITIES
+          </a>
+          <a href="/BLOGS" className="text-black cursor-pointer">
+            BLOGS
+          </a>
+          <a href="/contact-us" className=" text-black cursor-pointer">
+            {" "}
+            CONTACT
+          </a>
         </nav>
 
         <nav>

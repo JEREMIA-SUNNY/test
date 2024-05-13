@@ -200,14 +200,14 @@ export default function BLOGS() {
       >
         <div className="text-4xl pt-8 font-Barlow text-white">BLOGS</div>
       </div>
-      <section className="text-black bg-coustom1 body-font">
+      <section className="text-black bg-[#f2f2f2] body-font">
         <div className="container px-5 py-14 mx-auto">
-          <div className="flex lg:grid md:grid md:grid-cols-3 lg:grid-cols-4 flex-wrap gap-1 ">
+          <div className="flex lg:grid md:grid md:grid-cols-3 lg:grid-cols-4 gap-8 flex-wrap  ">
             {blog.map(({ name, logo, id, desc, link, auth, sorc }, i) => {
               return (
                 <div
                   key={i}
-                  className="w-fit flex flex-col lg:flex-1 py-4 justify-between bg-opacity-75 px-8   rounded-lg overflow-hidden text-center relative"
+                  className="w-fit flex bg-white flex-col lg:flex-1 py-4 justify-between bg-opacity-75 px-2   rounded-lg overflow-hidden text-center relative"
                 >
                   <div>
                     <div className=" w-full transition duration-150 pb-3 ease-out hover:ease-in hover:opacity-50">
@@ -220,12 +220,12 @@ export default function BLOGS() {
                       ></Image>
                     </div>
 
-                    <h1 className="title-font sm:text-2xl font-Barlow text-xl text-left  text-gray-900 mb-3">
+                    <h1 className="title-font sm:text-lg font-Barlow text-lg text-left font-semibold  text-gray-900 mb-3">
                       TITLE
                     </h1>
                     <p className="text-left font-Barlow">Source : {sorc}</p>
                     <p className="text-left font-Barlow">Author : {auth}</p>
-                    <p className="leading-relaxed mt-5 text-left font-Barlow">
+                    <p className="leading-relaxed text-sm mt-2 text-left font-Barlow">
                       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                       Ut quos illo dolorem, voluptates libero porro repudiandae
                       repellendus distinctio iure nam.
@@ -233,9 +233,9 @@ export default function BLOGS() {
                   </div>
                   <div className="flex  justify-center pt-4">
                     <div className="flex items-center">
-                      <button className="group relative h-10 w- px-5 overflow-hidden rounded-lg bg-white text-lg shadow">
-                        <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                        <span className="relative text-black group-hover:text-white">
+                      <button className="group relative h-12 border-2 border-greenTNF w- px-5 -2 overflow-hidden rounded-lg bg-white text-lg shadow">
+                        <div className="absolute inset-0 w-0  bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+                        <span className="relative text-greenTNF group-hover:text-white">
                           Read More
                         </span>
                       </button>

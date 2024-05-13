@@ -16,6 +16,10 @@ function ThirdSectionWhatWeBeilive() {
       text: "CNC TURNING",
       image: "/mech4.jpg",
     },
+    {
+      text: "CNC TURNING",
+      image: "/auto.jpg",
+    },
   ];
   const rightIcon = (
     <svg
@@ -32,13 +36,22 @@ function ThirdSectionWhatWeBeilive() {
     </svg>
   );
   return (
-    <div className="basis-[90%]  pt-16 pb-12">
-      <div className="ml-24 pb-8">
+    <div className="basis-[80%]  pt-16 pb-12">
+      <div className="px-8 flex justify-between pb-8">
         <div className="text-4xl font-medium">BLOGS</div>
+
+        <Link href={"/BLOGS"} className="flex  font-Barlow">
+          <button className="group relative h-12 border-2 hover:border-0 border-greenTNF w- px-5 overflow-hidden rounded-lg bg-white text-base shadow">
+            <div className="absolute inset-0 w-0 bg-greenTNF transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span className="relative font-semibold text-greenTNF group-hover:text-white">
+              Learn More
+            </span>
+          </button>
+        </Link>
       </div>
       <div>
         <div className="flex w-full justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
+          <div className="grid grid-cols-1 md:grid-cols-4 justify-between rounded-b-full py-8 gap-4 w-full basis-[90%]">
             {data.map((item, i) => (
               <Link
                 href={"/BLOGS"}
