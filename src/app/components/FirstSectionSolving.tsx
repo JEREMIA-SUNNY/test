@@ -13,7 +13,7 @@ function FirstSectionSolving() {
             <div className=" text-left text-black">
               <div className="flex items-center gap-8">
                 <div className="w-1/2">
-                  <h1 className="text-4xl font-medium mb-6">OUR FACILITIES</h1>
+                  <h1 className="text-3xl font-medium mb-6">OUR FACILITIES</h1>
                   <p className="font-Barlow mb-12">
                     We have two prestigious manufacturing units in Dubai
                     Investment Park 2. Our head office extends over 75,000 sq.

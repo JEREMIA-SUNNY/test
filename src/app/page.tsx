@@ -188,7 +188,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section>
+          {/* <section>
             <div className=" bg-gray-50 flex justify-center items-center">
               <section className="bg-cover basis-[80%] bg-center py-32 w-full">
                 <div className=" text-left text-black">
@@ -243,89 +243,12 @@ export default function Home() {
                 </div>
               </section>
             </div>
-          </section>
-
-          <div className=" bg-gray-50 flex justify-center items-center">
-            <section className="bg-cover  bg-center  w-full">
-              <div className=" text-left text-black">
-                <div className="flex items-center bg-black">
-                  <div className="w-1/2 flex flex-wrap justify-end gap-x-8 gap-y-14 text-white">
-                    <div className="flex justify-end ">
-                      <img
-                        src="/worker.png"
-                        className="w-[100px] h-[100px]"
-                        alt=""
-                      />
-                      <p className="w-[200px]">
-                        <span className="text-2xl">30 + </span> <br />{" "}
-                        <span className="text-sm">
-                          YEARS OF INDUSTRY <br /> EXPERIENCE
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex  ">
-                      <img
-                        src="/worker.png"
-                        className="w-[100px] h-[100px]"
-                        alt=""
-                      />
-                      <p className="w-[200px]">
-                        <span className="text-3xl">26 K+ </span> <br />{" "}
-                        <span className="text-base">
-                          CNC MACHINE <br />
-                          HOURS PER MONTH
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex  ">
-                      <img
-                        src="/worker.png"
-                        className="w-[100px] h-[100px]"
-                        alt=""
-                      />
-                      <p className="w-[200px]">
-                        <span className="text-3xl">260 + </span> <br />{" "}
-                        <span className="text-base">
-                          SKILLED & SEASONED <br /> STAFF
-                        </span>
-                      </p>
-                    </div>
-                    <div className="flex  ">
-                      <img
-                        src="/worker.png"
-                        className="w-[100px] h-[100px]"
-                        alt=""
-                      />
-                      <p className="w-[200px]">
-                        <span className="text-4xl">1994</span> <br />{" "}
-                        <span className="text-base">
-                          A HISTORY OF <br /> EXPERTISE & WEALTH <br /> OF
-                          KNOWLEDGE
-                        </span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="w-1/2 pl-16">
-                    <img
-                      src="/serv2.jpg"
-                      className="h-96 w-full object-cover "
-                      alt="Layout Image"
-                    />
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <section className="flex bg-[#f2f2f2]  justify-center w-full">
-            <FirstSectionSolving />
-          </section>
-
-          <section className="flex flex-col  py-16 pb-24 justify-center w-full">
+          </section> */}
+          <section className="flex flex-col bg-[#f2f2f2]  py-16 pb-24 justify-center w-full">
             <div className="flex justify-center relative w-full">
               {" "}
               <div className="w-full basis-[70%] font- text-sm pt-9 pb-">
-                <div className=" w-full basis-[80%]  text-4xl font-medium  pb-16">
+                <div className=" w-full basis-[80%]  text-3xl font-medium  pb-16">
                   OUR SERVICES
                 </div>
               </div>
@@ -345,14 +268,108 @@ export default function Home() {
               <BentoGridDemo />
             </div>
           </section>
+          <div className="flex flex-col justify-center  items-center">
+            <div className="text-3xl font-medium mb-6 pt-8 pb-10">
+              OUR CLIENTS
+            </div>
 
-          <section className="flex  justify-center bg-[#f2f2f2]  w-full">
+            <section className="custom-scroll-section pb-24">
+              <div className="custom-scroll-banner" id="customScrollBanner">
+                <div className="custom-scroll-container">
+                  <ul className="custom-scroll-list">
+                    <li className="custom-scroll-item">
+                      <img src="/one.png" alt="Client Logo 1" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/two.png" alt="Client Logo 2" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/three.png" alt="Client Logo 3" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/four.png" alt="Client Logo 4" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/five.png" alt="Client Logo 5" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/six.png" alt="Client Logo 6" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/seven.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/eight.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/nine.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/ten.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/11.png" alt="Client Logo 11" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/12.png" alt="Client Logo 7" />
+                    </li>
+                  </ul>
+                </div>
+                <div className="custom-scroll-container">
+                  <ul className="custom-scroll-list">
+                    <li className="custom-scroll-item">
+                      <img src="/one.png" alt="Client Logo 1" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/two.png" alt="Client Logo 2" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/three.png" alt="Client Logo 3" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/four.png" alt="Client Logo 4" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/five.png" alt="Client Logo 5" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/six.png" alt="Client Logo 6" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/seven.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/eight.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/nine.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/ten.png" alt="Client Logo 7" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/11.png" alt="Client Logo 11" />
+                    </li>
+                    <li className="custom-scroll-item">
+                      <img src="/12.png" alt="Client Logo 7" />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <section className="flex bg-[#f2f2f2]  justify-center w-full">
+            <FirstSectionSolving />
+          </section>
+
+          <section className="flex  justify-center bg-white  w-full">
             <SecondSectionCard />
           </section>
 
-          <section className="flex justify-center w-full">
+          {/* <section className="flex justify-center w-full">
             <ThirdSectionWhatWeBeilive />
-          </section>
+          </section> */}
 
           <section
             style={{

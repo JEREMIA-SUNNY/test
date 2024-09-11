@@ -41,7 +41,7 @@ const SubmenuItemService = () => {
     <motion.div
       variants={item.variants}
       transition={item.transition}
-      className="text-black text-left  py-3 mt-4  px-2 text-sm rounded-xl flex flex-col gap-4 bg-white min-w-[250px]"
+      className="text-black text-left  py-3 mt-4  px-2 text-sm rounded-xl grid grid-cols-2 gap-y-4 gap-x-2  bg-white min-w-[300px]"
     >
       <Link
         href="/services?name=CNC"
@@ -56,22 +56,29 @@ const SubmenuItemService = () => {
         CNC TURNING
       </Link>
       <Link
-        href={"/services?name=BTA"}
+        href={"/services?name=EDM"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        BTA DRILLING
+        EDM Services
       </Link>
       <Link
-        href={"/services?name=HEATTREATMENT"}
+        href={"/services?name=GRINDING"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        HEAT TREATMENT & CASE HARDENING
+        GRINDING
       </Link>
       <Link
         href={"/services?name=PHOSPHATING"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
         PHOSPHATING SERVICES
+      </Link>
+
+      <Link
+        href={"/services?name=CMM"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        CMM
       </Link>
       <Link
         href={"/services?name=CYLINDRICAL"}
@@ -85,12 +92,72 @@ const SubmenuItemService = () => {
       >
         ELECTRIC DISCHARGE MACHINING
       </Link>
+      <Link
+        href={"/services?name=DESIGN"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        DESIGN, MANUFACTURE & REPAIR SERVICES
+      </Link>
 
       <Link
         href={"/services?name=INSPECTION"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
         INSPECTION SERVICES
+      </Link>
+
+      <Link
+        href={"/services?name=TURRET"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        TURRET PUNCHING
+      </Link>
+      <Link
+        href={"/services?name=BENDING"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        BENDING
+      </Link>
+      <Link
+        href={"/services?name=ROLLING"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        ROLLING
+      </Link>
+
+      <Link
+        href={"/services?name=WELDING"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        WELDING
+      </Link>
+
+      <Link
+        href={"/services?name=CNC_PLASMA"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        CNC PLASMA CUTTING
+      </Link>
+
+      <Link
+        href={"/services?name=WATERJET"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        WATERJET CUTTING
+      </Link>
+
+      <Link
+        href={"/services?name=BANDSAW"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        BANDSAW CUTTING
+      </Link>
+
+      <Link
+        href={"/services?name=RADIAL"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        RADIAL DRILLING
       </Link>
     </motion.div>
   );
@@ -131,6 +198,19 @@ const SubmenuItemIndustree = () => {
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
         PRECISION ENGINEERING INDUSTRY
+      </Link>
+      <Link
+        href={"/industries?name=OILGAS"}
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        OIL AND GAS
+      </Link>
+
+      <Link
+        href="/industries?name=DEFENSEANDAEROSPACE"
+        className="hover:scale-105 transition-all duration-300 ease-linear"
+      >
+        DEFENSE AND AEROSPACE
       </Link>
     </motion.div>
   );
@@ -212,7 +292,7 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
                     initial="closed"
                     animate="open"
                     variants={menu}
-                    className="absolute bottom-[100] z-[20000]"
+                    className="absolute bottom-[100]  z-[20000]"
                   >
                     <SubmenuItemService />
                   </motion.div>
@@ -253,7 +333,7 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
                 </Link>
               </div>
 
-              <div className=" text-lg font-medium hover:cursor-pointer">
+              {/* <div className=" text-lg font-medium hover:cursor-pointer">
                 <Link
                   href={"/BLOGS"}
                   className="bg-left-bottom text-base
@@ -261,7 +341,7 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
                 >
                   BLOGS
                 </Link>
-              </div>
+              </div> */}
               <Link
                 href={"/contact-us"}
                 className=" text-lg font-medium hover:cursor-pointer"

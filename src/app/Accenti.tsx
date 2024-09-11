@@ -22,6 +22,7 @@ export function BentoGridDemo() {
           header={item.header}
           icon={item.icon}
           className={i === 3 || i === 6 ? "md:col-span-2" : ""}
+          url={item.url}
         />
       ))}
     </BentoGrid>
@@ -35,46 +36,77 @@ const Skeleton = () => (
 );
 const items = [
   {
-    title: "BTA DRILLING, GUNDRILLING & HONING",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
-    header: "/service/brp.jpg",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    title: "CNC MILLING",
+    description: "Dive into the transformative power of technology.",
+    header: "/service/CNCMILLINGSERVICES.jpg",
+    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=CNC",
   },
   {
     title: "CNC TURNING",
     description: "Dive into the transformative power of technology.",
     header: "/mech2.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=TURNING",
   },
   {
-    title: "HEAT TREATMENT & CASE HARDENING",
-    description: "Discover the beauty of thoughtful and functional design.",
-    header: "/mech3.jpg",
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+    title: " EDM Services",
+    description:
+      "Spark Erosion, also known as electrical discharge machining(EDM),",
+    header: "/service/emd.jpg",
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=EDM",
+  },
+
+  {
+    title: " GRINDING",
+    description:
+      "Spark Erosion, also known as electrical discharge machining(EDM),",
+    header: "/service/grinding.jpg",
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=GRINDING",
+  },
+  {
+    title: "PHOSPHATING SERVICES",
+    description:
+      "Understand the impact of effective communication in our lives.",
+    header: "/service/PHOSPHATINGSERVICES.jpg",
+    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=PHOSPHATING",
+  },
+  {
+    title: "CMM",
+    description: "Join the quest for understanding and enlightenment.",
+    header: "/service/cmm.jpg",
+    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=CMM",
   },
   {
     title: "CYLINDRICAL & SURFACE GRINDING",
-    description:
-      "Understand the impact of effective communication in our lives.",
-    header: "/mec1.jpg",
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "REPAIR AND OVERHAUL",
     description: "Join the quest for understanding and enlightenment.",
-    header: "/mech4.jpg",
+    header: "/service/grindi.jpg",
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
+    url: "/services?name=CYLINDRICAL",
   },
-  {
-    title: "OEM",
-    description: "Experience the thrill of bringing ideas to life.",
-    header: "/mech5.jpg",
-    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "AUTOMOTIVE",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: "/auto.jpg",
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-  },
+  // {
+  //   title: "ELECTRIC DISCHARGE MACHINING",
+  //   description: "Experience the thrill of bringing ideas to life.",
+  //   header: "/mech5.jpg",
+  //   icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+  //   url: "/services?name=ELECTRIC",
+  // },
+  // {
+  //   title: "DESIGN, MANUFACTURE & REPAIR SERVICES",
+  //   description: "Experience the thrill of bringing ideas to life.",
+  //   header: "/mech5.jpg",
+  //   icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
+  //   url: "/services?name=DESIGN",
+  // },
+  // {
+  //   title: "INSPECTION SERVICES",
+  //   description: "Embark on exciting journeys and thrilling discoveries.",
+  //   header: "/auto.jpg",
+  //   icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+  //   url: "/services?name=INSPECTION",
+  // },
 ];
