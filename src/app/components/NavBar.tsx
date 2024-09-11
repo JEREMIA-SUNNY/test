@@ -179,13 +179,13 @@ const SubmenuItemIndustree = () => {
         href="/industries?name=PETROCHEMICAL"
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        PETROCHEMICAL INDUSTRY
+        PETROCHEMICAL 
       </Link>
       <Link
         href={"/industries?name=CONSTRUCTION"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        CONSTRUCTION INDUSTRY
+        CONSTRUCTION 
       </Link>
       <Link
         href={"/industries?name=ORIGINAL"}
@@ -197,7 +197,7 @@ const SubmenuItemIndustree = () => {
         href={"/industries?name=PRECISION"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        PRECISION ENGINEERING INDUSTRY
+        PRECISION ENGINEERING 
       </Link>
       <Link
         href={"/industries?name=OILGAS"}
