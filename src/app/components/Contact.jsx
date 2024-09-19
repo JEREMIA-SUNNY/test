@@ -61,7 +61,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>SFJ Business Solutions | Contact</title>
+        <title> Contact</title>
         <meta name="description" content="SFJ Business Solutions Contact Us" />
       </Head>
       <section className="pt-12 font-Barlow pb-12 text-zinc-900 bg-coustom1">
@@ -123,17 +123,17 @@ export default function Contact() {
                   <p>EIDB7761, 3759 الدمام 1266, 7761</p>
                   <p>Dammam 34324, </p>
                   <p>Saudi Arabia</p>
-
+                  <p>Raju Vanka (Managing Director)</p>
                   <p className="pt-2 ">
                     {" "}
-                    <span className="font-semibold">Phone :</span> +966 55 866
-                    5998
+                    <span className="font-semibold">Phone :</span>{" "}
+                    +966 50 494 7116
                   </p>
 
                   <p className="pt-2 ">
                     {" "}
                     <span className="font-semibold">Email :</span>{" "}
-                    trancil@emi-saudi.com
+                    raju@emi-saudi.com
                   </p>
                 </div>
 

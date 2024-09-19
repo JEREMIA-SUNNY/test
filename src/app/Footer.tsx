@@ -17,10 +17,11 @@ function Footer() {
             </p>
             <p>EIDB7761, 3759 الدمام 1266, 7761</p>
             <p>Dammam 34324, Saudi Arabia</p>
+            <p>Raju Vanka (Managing Director)</p>
             <p className=" ">
               {" "}
-              <span className="font-semibold">Contact :</span> +966 55 866 5998
-              / trancil@emi-saudi.com
+              <span className="font-semibold">Contact :</span> +966 50 494 7116
+              / raju@emi-saudi.com
             </p>
           </div>
         </div>
