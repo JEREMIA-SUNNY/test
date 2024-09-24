@@ -42,9 +42,9 @@ function Footer() {
           <a href="/facility" className="text-black cursor-pointer">
             FACILITIES
           </a>
-          {/* <a href="/BLOGS" className="text-black cursor-pointer">
-            BLOGS
-          </a> */}
+          <a href={"/quality"} className="text-black cursor-pointer">
+            QUALITY
+          </a>
           <a href="/contact-us" className=" text-black cursor-pointer">
             {" "}
             CONTACT

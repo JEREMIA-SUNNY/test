@@ -179,13 +179,13 @@ const SubmenuItemIndustree = () => {
         href="/industries?name=PETROCHEMICAL"
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        PETROCHEMICAL 
+        PETROCHEMICAL
       </Link>
       <Link
         href={"/industries?name=CONSTRUCTION"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        CONSTRUCTION 
+        CONSTRUCTION
       </Link>
       <Link
         href={"/industries?name=ORIGINAL"}
@@ -197,7 +197,7 @@ const SubmenuItemIndustree = () => {
         href={"/industries?name=PRECISION"}
         className="hover:scale-105 transition-all duration-300 ease-linear"
       >
-        PRECISION ENGINEERING 
+        PRECISION ENGINEERING
       </Link>
       <Link
         href={"/industries?name=OILGAS"}
@@ -333,15 +333,15 @@ const NavBar: React.FC<props> = ({ isToggled, setToggle }) => {
                 </Link>
               </div>
 
-              {/* <div className=" text-lg font-medium hover:cursor-pointer">
+              <div className=" text-lg font-medium hover:cursor-pointer">
                 <Link
-                  href={"/BLOGS"}
+                  href={"/quality"}
                   className="bg-left-bottom text-base
                font-bah bg-gradient-to-r from-white to-white bg-[length:0%_2px] bg-no-repeat hover:bg-[length:100%_2px] transition-all duration-700 ease-out"
                 >
-                  BLOGS
+                  QUALITY
                 </Link>
-              </div> */}
+              </div>
               <Link
                 href={"/contact-us"}
                 className=" text-lg font-medium hover:cursor-pointer"
