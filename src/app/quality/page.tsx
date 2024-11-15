@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-function page() {
+
+function Page() {
   return (
-    <div className="h-screen">
-      {" "}
+    <div>
+      {/* Background section with motion */}
       <div
         className="h-[350px] pt-8 flex justify-center items-center bg-black"
         style={{
@@ -24,8 +25,24 @@ function page() {
           QUALITY
         </motion.div>
       </div>
+
+      {/* PDF Embed section */}
+      <div className="flex flex-col items-center mt-8 space-y-6">
+        <iframe
+          src="/pdf/one.pdf#toolbar=0"
+          width="90%"
+          height="1200px"
+          title="Embedded PDF One"
+        ></iframe>
+        <iframe
+          src={`/pdf/two.pdf#toolbar=0`}
+          width="90%"
+          height="1200px"
+          title="Embedded PDF One"
+        ></iframe>
+      </div>
     </div>
   );
 }
 
-export default page;
+export default Page;
