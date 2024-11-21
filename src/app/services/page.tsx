@@ -34,7 +34,7 @@ function Service() {
         Stainless Steel, Inconel, Monel, Super Duplex, Titanium,
         Copper, Brass, Bronze, Aluminium, Nylon, Teflon, Plastic,
         Rubber, PTFE, etc.`,
-      image: "/service/CNCMILLINGSERVICES.jpg",
+      image: "/service/CNCMillingTable.jpeg",
     },
     {
       id: "TURNING",
@@ -76,7 +76,7 @@ function Service() {
         non-metallic materials. Cylindrical grinding is a precise and
         intricate process used in various industries to achieve high
         levels of accuracy and precision.`,
-      image: "/service/grinding.jpg",
+      image: "/service/IDGrinding.jpeg",
     },
     {
       id: "PHOSPHATING",
@@ -95,7 +95,7 @@ function Service() {
         discrete points on the surface of the object with a probe.
         Various types of probes are used in CMMs, the most common
         being mechanical and laser sensors.`,
-      image: "/service/cmm.jpg",
+      image: "/service/CMM2.jpeg",
     },
     {
       id: "CYLINDRICAL",
@@ -103,7 +103,7 @@ function Service() {
       description: `Cylindrical grinding is a precise and intricate process used
         in various industries to achieve high levels of accuracy and
         precision in the production of cylindrical components.`,
-      image: "/service/grindi.jpg",
+      image: "/service/CylindricalGrinding.jpeg",
     },
     {
       id: "ELECTRIC",
@@ -156,7 +156,7 @@ function Service() {
       name: "Welding",
       description: `Welding is a fabrication process that joins materials,
         usually metals or thermoplastics, by causing coalescence.`,
-      image: "/service/Welding.jpg",
+      image: "/service/Welding.jpeg",
     },
     {
       id: "CNC_PLASMA",
@@ -164,7 +164,7 @@ function Service() {
       description: `CNC Plasma Cutting is a process that uses a high-velocity jet
         of ionized gas to cut through electrically conductive
         materials such as steel, aluminum, brass, and copper.`,
-      image: "/service/CNCPlasmaCutting.jpg",
+      image: "/service/CNCPlasmaCutting.jpeg",
     },
     {
       id: "WATERJET",
@@ -190,7 +190,7 @@ function Service() {
         is used to drill holes in large or heavy workpieces, allowing
         the machine's arm to rotate around the workpiece for
         precision.`,
-      image: "/service/RadialDrilling.jpg",
+      image: "/service/CNCDrilling.jpeg",
     },
   ];
 

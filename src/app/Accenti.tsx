@@ -38,19 +38,19 @@ const items = [
   {
     title: "CNC MILLING",
     description: "Dive into the transformative power of technology.",
-    header: "/service/CNCMILLINGSERVICES.jpg",
+    header: "/service/CNCMillingTable.jpeg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=CNC",
   },
   {
     title: "CNC TURNING",
     description: "Dive into the transformative power of technology.",
-    header: "/mech2.jpg",
+    header: "/serv.jpg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=TURNING",
   },
   {
-    title: " EDM Services",
+    title: "EDM Services",
     description:
       "Spark Erosion, also known as electrical discharge machining(EDM),",
     header: "/service/emd.jpg",
@@ -59,10 +59,10 @@ const items = [
   },
 
   {
-    title: " GRINDING",
+    title: "GRINDING",
     description:
       "Spark Erosion, also known as electrical discharge machining(EDM),",
-    header: "/service/grinding.jpg",
+    header: "/service/IDGrinding.jpeg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=GRINDING",
   },
@@ -77,14 +77,14 @@ const items = [
   {
     title: "CMM",
     description: "Join the quest for understanding and enlightenment.",
-    header: "/service/cmm.jpg",
+    header: "/service/CMM2.jpeg",
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=CMM",
   },
   {
     title: "CYLINDRICAL & SURFACE GRINDING",
     description: "Join the quest for understanding and enlightenment.",
-    header: "/service/grindi.jpg",
+    header: "/service/CylindricalGrinding.jpeg",
     icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=CYLINDRICAL",
   },
