@@ -53,7 +53,7 @@ function Service() {
         Steel, Inconel, Monel, Super Duplex, Titanium, Copper,
         Brass, Bronze, Aluminium, Nylon, Teflon, Plastic, Rubber,
         PTFE, etc.`,
-      image: "/serv.jpg",
+      image: "/service/CNCTurning.jpeg",
     },
     {
       id: "EDM",
@@ -66,7 +66,7 @@ function Service() {
         liquid that is subject to voltage. Wire EDM machining is an
         electrothermal production process that uses electric
         discharges to remove material from a workpiece.`,
-      image: "/service/emd.jpg",
+      image: "/service/edm2.jpg",
     },
     {
       id: "GRINDING",
@@ -111,7 +111,7 @@ function Service() {
       description: `EDM, or electric discharge machining, is a process used to
         remove material from a workpiece through electrical
         discharges.`,
-      image: "/service/ELECTRICDISCHARGEMACHININGSERVICES.jpg",
+      image: "/service/EDM Spark.jpeg",
     },
     {
       id: "DESIGN",
@@ -127,7 +127,7 @@ function Service() {
       description: `At EMI we ensure that a manufactured product or performed
         service adheres to a defined set of quality criteria or meets
         the requirements of the client or end user.`,
-      image: "/service/INSPECTIONSERVICES.jpg",
+      image: "/service/Inspections.jpeg",
     },
     {
       id: "TURRET",

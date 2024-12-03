@@ -45,7 +45,7 @@ const items = [
   {
     title: "CNC TURNING",
     description: "Dive into the transformative power of technology.",
-    header: "/serv.jpg",
+    header: "/service/CNCTurning.jpeg",
     icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=TURNING",
   },
@@ -53,7 +53,7 @@ const items = [
     title: "EDM Services",
     description:
       "Spark Erosion, also known as electrical discharge machining(EDM),",
-    header: "/service/emd.jpg",
+    header: "/service/edm2.jpg",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
     url: "/services?name=EDM",
   },

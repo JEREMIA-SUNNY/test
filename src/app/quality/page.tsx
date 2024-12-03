@@ -27,19 +27,23 @@ function Page() {
       </div>
 
       {/* PDF Embed section */}
-      <div className="flex flex-col items-center mt-8 space-y-6">
-        <iframe
-          src="/pdf/one.pdf#toolbar=0"
-          width="90%"
-          height="1200px"
-          title="Embedded PDF One"
-        ></iframe>
-        <iframe
-          src={`/pdf/two.pdf#toolbar=0`}
-          width="90%"
-          height="1200px"
-          title="Embedded PDF One"
-        ></iframe>
+      <div className="flex flex-wrap justify-center py-8 gap-14 mt-8">
+        <div className="flex flex-col md:flex- shadow-2xl items-center">
+          <img
+            src="/pdf1.jpg"
+            alt="Image DF1"
+            className="w-full max-w-md"
+            style={{ maxHeight: "1200px", objectFit: "contain" }}
+          />
+        </div>
+        <div className="flex flex-col md:flex- shadow-2xl items-center">
+          <img
+            src="/pdf2.jpg"
+            alt="Image PDF2"
+            className="w-full max-w-md"
+            style={{ maxHeight: "1200px", objectFit: "contain" }}
+          />
+        </div>
       </div>
     </div>
   );
